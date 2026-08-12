@@ -246,7 +246,10 @@ p{color:var(--ink-soft)}
 /* Split */
 .split{display:grid;grid-template-columns:1.05fr .95fr;gap:4rem;align-items:center}
 @media(max-width:900px){.split{grid-template-columns:1fr;gap:2.5rem}}
-.split__media{position:relative;border-radius:var(--r-lg);overflow:hidden;aspect-ratio:4/5;box-shadow:var(--shadow);border:1px solid var(--line)}
+.split__media{position:relative;width:100%;max-width:100%;min-width:0;border-radius:var(--r-lg);overflow:hidden;aspect-ratio:4/5;box-shadow:var(--shadow);border:1px solid var(--line)}
+/* replaced elements (maps etc.) must never exceed their box */
+iframe,video,embed,object{max-width:100%}
+.split__media iframe,.split__media video{position:absolute;inset:0;width:100%;height:100%;border:0;display:block}
 .split__media img{width:100%;height:100%;object-fit:cover;transition:transform 1.2s var(--ease)}
 .split__media:hover img{transform:scale(1.06)}
 .split__media .frame{position:absolute;inset:14px;border:1px solid rgba(255,255,255,.25);border-radius:14px;pointer-events:none;z-index:2}
