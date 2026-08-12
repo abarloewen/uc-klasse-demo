@@ -1,5 +1,10 @@
-# Klasse Production Sdn Bhd — https://klasseproduction.com/
+# Private client preview — keep out of search engines.
+# NOTE: when this site moves to the live domain (klasseproduction.com),
+# replace this file with the production version below.
 User-agent: *
-Allow: /
+Disallow: /
 
-Sitemap: https://klasseproduction.com/sitemap.xml
+# --- production version (uncomment on launch, remove the block above) ---
+# User-agent: *
+# Allow: /
+# Sitemap: https://klasseproduction.com/sitemap.xml
