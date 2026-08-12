@@ -9,7 +9,7 @@
 (function () {
   "use strict";
 
-  var PASSWORD = "klasse2026";
+  var PASSWORD = "avb";
   var KEY = "klasse-preview-unlocked";
   var DAYS = 14;
 
