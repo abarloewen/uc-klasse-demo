@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Au Jardin Case Study — Fine Dining Brand Content, 1 Michelin Star | Klasse Productions</title>
+<meta name="description" content="Klasse Productions produced the fine-dining brand content for Au Jardin, a one Michelin Star restaurant — the room, the plate and the craft, art directed and shot as a single continuous visual story.">
+<meta name="author" content="Klasse Production Sdn Bhd">
+<meta name="theme-color" content="#0a0a0b">
+<meta property="og:title" content="Au Jardin — Fine Dining Brand Content, 1 Michelin Star">
+<meta property="og:description" content="Brand content for a one Michelin Star restaurant: atmosphere, plating and craft, shot to hold up beside the food itself.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://klasseproduction.com/case-aujardin.html">
+<meta property="og:site_name" content="Klasse Productions">
+<meta property="og:locale" content="en_MY">
+<meta property="og:image" content="https://klasseproduction.com/assets/img/aujardin-1.jpg">
+<meta property="og:image:alt" content="Exterior of Au Jardin, a one Michelin Star restaurant">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Au Jardin — Fine Dining Brand Content, 1 Michelin Star">
+<meta name="twitter:description" content="Brand content for a one Michelin Star restaurant: atmosphere, plating and craft, shot to hold up beside the food itself.">
+<meta name="twitter:image" content="https://klasseproduction.com/assets/img/aujardin-1.jpg">
+<link rel="canonical" href="https://klasseproduction.com/case-aujardin.html">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="image" href="assets/img/aujardin-1.jpg" fetchpriority="high">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+<script>document.documentElement.classList.add('js');</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://klasseproduction.com/#organization","name":"Klasse Productions","legalName":"KLASSE PRODUCTION SDN. BHD.","url":"https://klasseproduction.com/","logo":"https://klasseproduction.com/assets/logo-white.png","image":"https://klasseproduction.com/assets/img/aujardin-1.jpg","foundingDate":"2024-12-12","foundingLocation":"Kuala Lumpur, Malaysia","email":"omarbarakbah@klasseproduction.com","telephone":"+60122202015","slogan":"Elevating creativity, amplifying impact.","description":"Klasse Production Sdn Bhd is a Kuala Lumpur creative & production house established December 2024, covering event organisation, promotion & management; advertising; and motion picture, video & television programme production.","sameAs":["https://www.facebook.com/klasseproductions","https://x.com/classprod","https://www.instagram.com/klasseproductions"],"address":{"@type":"PostalAddress","streetAddress":"A2-13-1, Arcoris SOHO, Jalan Kiara","addressLocality":"Kuala Lumpur","postalCode":"50480","addressRegion":"Wilayah Persekutuan","addressCountry":"MY"}},{"@type":"LocalBusiness","@id":"https://klasseproduction.com/#localbusiness","name":"Klasse Productions","image":"https://klasseproduction.com/assets/img/aujardin-1.jpg","url":"https://klasseproduction.com/case-aujardin.html","email":"omarbarakbah@klasseproduction.com","telephone":"+60122202015","priceRange":"$$","foundingDate":"2024-12-12","areaServed":"MY","address":{"@type":"PostalAddress","streetAddress":"A2-13-1, Arcoris SOHO, Jalan Kiara","addressLocality":"Kuala Lumpur","postalCode":"50480","addressRegion":"Wilayah Persekutuan","addressCountry":"MY"}},{"@type":"CreativeWork","@id":"https://klasseproduction.com/case-aujardin.html#work","name":"Au Jardin — Fine Dining Brand Content","url":"https://klasseproduction.com/case-aujardin.html","image":"https://klasseproduction.com/assets/img/aujardin-1.jpg","inLanguage":["en-MY","ms-MY"],"dateCreated":"2025","creator":{"@id":"https://klasseproduction.com/#organization"},"about":"Brand content, food and atmosphere photography for a one Michelin Star fine dining restaurant.","keywords":"Au Jardin, Michelin Star, fine dining, brand content, food photography, restaurant, Kuala Lumpur"}]}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://klasseproduction.com/"},{"@type":"ListItem","position":2,"name":"Work","item":"https://klasseproduction.com/work.html"},{"@type":"ListItem","position":3,"name":"Au Jardin","item":"https://klasseproduction.com/case-aujardin.html"}]}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#content" data-bm="Langkau ke kandungan">Skip to content</a>
+<div class="scrollbar"></div>
+<div class="grain" aria-hidden="true"></div>
+
+<!-- ===== HEADER (copy verbatim across pages; swap the .active link) ===== -->
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="nav__logo" href="index.html" aria-label="Klasse Productions home"><img src="assets/logo-white.png" alt="Klasse Productions" width="140" height="30"></a>
+    <div class="nav__right">
+      <nav class="nav__links" id="nav-links" aria-label="Main">
+        <a href="index.html" data-i18n="nav.home">Home</a>
+        <a href="about.html" data-i18n="nav.about">About</a>
+        <a href="services.html" data-i18n="nav.services">Services</a>
+        <a href="work.html" class="active" data-i18n="nav.work">Work</a>
+        <a href="process.html" data-i18n="nav.process">Process</a>
+        <a href="contact.html" data-i18n="nav.contact">Contact</a>
+        <a class="btn btn--primary nav__cta" href="contact.html" data-bm="Mari berbual <span class='arrow'>&rarr;</span>">Let's talk <span class="arrow">&rarr;</span></a>
+      </nav>
+      <div class="lang" role="group" aria-label="Language">
+        <button type="button" data-lang="en" class="on" aria-label="Switch to English" aria-pressed="true">EN</button>
+        <button type="button" data-lang="bm" aria-label="Tukar ke Bahasa Melayu" aria-pressed="false">BM</button>
+      </div>
+      <button class="nav__toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<!-- ===== CASE HERO ===== -->
+<section class="case-hero" id="content" tabindex="-1">
+  <div class="case-hero__bg" data-parallax="0.12">
+    <img src="assets/img/aujardin-1.jpg" alt="Exterior of Au Jardin, a one Michelin Star fine dining restaurant" fetchpriority="high" decoding="async" width="1400" height="933">
+  </div>
+  <div class="case-hero__scrim" aria-hidden="true"></div>
+  <div class="wrap">
+    <nav class="breadcrumb load-up" aria-label="Breadcrumb">
+      <a href="index.html" data-i18n="nav.home">Home</a> <span aria-hidden="true">/</span>
+      <a href="work.html" data-i18n="nav.work">Work</a> <span aria-hidden="true">/</span> <span>Au Jardin</span>
+    </nav>
+    <div class="chip-row load-up">
+      <span class="chip" data-bm="Kandungan Jenama">Brand Content</span>
+      <span class="chip" data-bm="Fine Dining">Fine Dining</span>
+      <span class="chip chip--solid" data-bm="1 Bintang Michelin">1 Michelin Star</span>
+    </div>
+    <h1 class="load-up d1" data-bm="Sehalus <span class='hl'>hidangan itu sendiri.</span>">As refined as <span class="hl">the food itself.</span></h1>
+    <p class="lead load-up d2" data-bm="Au Jardin ialah restoran satu-bintang Michelin. Kandungan jenama untuk dapur seperti itu mempunyai satu ujian mudah: adakah imej itu boleh berdiri di sebelah pinggan sebenar tanpa mengecewakan? Kami menggambarkannya dalam tiga bab &mdash; ruang, pinggan, dan ketukangan di belakang kedua-duanya.">Au Jardin is a one Michelin Star restaurant. Brand content for a kitchen like that has one simple test: can the image stand next to the real plate without disappointing? We shot it in three chapters &mdash; the room, the plate, and the craft behind both.</p>
+    <dl class="case-meta load-up d3">
+      <div>
+        <dt data-bm="Klien">Client</dt>
+        <dd>Au Jardin</dd>
+      </div>
+      <div>
+        <dt data-bm="Skop">Scope</dt>
+        <dd data-bm="Kandungan jenama &middot; Fotografi makanan &middot; Suasana &amp; arah seni">Brand content &middot; Food photography &middot; Atmosphere &amp; art direction</dd>
+      </div>
+      <div>
+        <dt data-bm="Tahun">Year</dt>
+        <dd>2024&ndash;2025</dd>
+      </div>
+      <div>
+        <dt data-bm="Pengiktirafan">Recognition</dt>
+        <dd data-bm="1 Bintang Michelin">1 Michelin Star</dd>
+      </div>
+    </dl>
+  </div>
+</section>
+
+<!-- ===== 1. OVERVIEW ===== -->
+<section class="section section--panel" id="overview">
+  <div class="wrap split split--top">
+    <div>
+      <span class="eyebrow reveal" data-bm="Ringkasan">The brief</span>
+      <h2 class="reveal" style="margin:1.1rem 0" data-bm="Fine dining tidak boleh kelihatan seperti menu penghantaran.">Fine dining cannot look like a delivery menu.</h2>
+      <p class="reveal" style="margin-bottom:1rem" data-bm="Restoran berbintang Michelin dinilai sebelum tetamu duduk. Untuk ramai orang, imej pertama yang mereka lihat adalah gambar dalam talian &mdash; dan gambar itu menetapkan jangkaan untuk seluruh malam. Kandungan yang lemah bukan sekadar hodoh; ia menurunkan nilai yang dirasakan pada hidangan yang mengambil masa bertahun untuk disempurnakan.">A Michelin-starred restaurant is judged before a guest sits down. For most people the first image they see is online &mdash; and that image sets the expectation for the entire evening. Weak content is not just unattractive; it lowers the perceived value of dishes that took years to refine.</p>
+      <p class="reveal" style="margin-bottom:1rem" data-bm="Jadi kami tidak menggambarkan makanan sahaja. Kami menggambarkan pengalaman: bangunan dan pintu masuk, cahaya di dalam ruang makan, tangan yang menyusun pinggan, dan hidangan siap pada saat ia dihidangkan.">So we did not shoot only the food. We shot the experience: the building and the entrance, the light inside the dining room, the hands assembling a plate, and the finished dish at the moment it goes out.</p>
+      <p class="reveal muted" data-bm="Semua tiga bab dinilai dalam satu gredasi, jadi galeri dalam talian terasa seperti satu malam &mdash; bukan tiga penggambaran berbeza.">All three chapters are graded together, so the online gallery feels like one evening &mdash; not three different shoots.</p>
+      <div class="chip-row reveal" style="margin-top:1.8rem">
+        <span class="chip chip--ghost" data-bm="Restoran">Restaurant</span>
+        <span class="chip chip--ghost" data-bm="Gaya hidup &amp; F&amp;B">Lifestyle &amp; F&amp;B</span>
+        <span class="chip chip--ghost" data-bm="Kuala Lumpur">Kuala Lumpur</span>
+      </div>
+    </div>
+    <div class="split__media split__media--wide reveal">
+      <span class="frame" aria-hidden="true"></span>
+      <img src="assets/img/aujardin-2.jpg" alt="Interior atmosphere and lighting of the Au Jardin dining room" loading="lazy" decoding="async">
+    </div>
+  </div>
+
+  <div class="wrap" style="margin-top:4rem">
+    <div class="section-head reveal" style="margin-bottom:2rem">
+      <span class="eyebrow" data-bm="Tiga bab">Three chapters</span>
+      <h2 data-bm="Ruang, pinggan, ketukangan.">The room, the plate, the craft.</h2>
+    </div>
+    <ol class="step-list step-list--4">
+      <li class="step-list__item reveal">
+        <h3 data-bm="Ruang">The room</h3>
+        <p data-bm="Bahagian luar, pintu masuk dan suasana dalaman &mdash; imej yang menetapkan jangkaan sebelum menu dibuka.">Exterior, entrance and interior atmosphere &mdash; the images that set expectations before the menu opens.</p>
+      </li>
+      <li class="step-list__item reveal">
+        <h3 data-bm="Pinggan">The plate</h3>
+        <p data-bm="Fotografi makanan yang menghormati susunan cef: sudut yang betul, cahaya yang betul, dan tiada apa yang ditambah ke dalam bingkai.">Food photography that respects the chef's plating: the right angle, the right light, and nothing added into the frame.</p>
+      </li>
+      <li class="step-list__item reveal">
+        <h3 data-bm="Ketukangan">The craft</h3>
+        <p data-bm="Tangan, teknik dan detail dapur &mdash; bukti bahawa hidangan itu dibuat, bukan sekadar dihidangkan.">Hands, technique and kitchen detail &mdash; the evidence that a dish was made, not just served.</p>
+      </li>
+      <li class="step-list__item reveal">
+        <h3 data-bm="Satu gredasi">One grade</h3>
+        <p data-bm="Ketiga-tiga bab diselesaikan dalam palet yang sama supaya galeri jenama kekal koheren merentasi setiap saluran.">All three chapters finished in the same palette so the brand gallery stays coherent across every channel.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ===== 2. THE PLATE — showcase ===== -->
+<section class="section">
+  <div class="wrap">
+    <div class="section-head reveal" style="margin-bottom:2.8rem">
+      <span class="eyebrow" data-bm="01 &middot; Pinggan">01 &middot; The plate</span>
+      <h2 data-bm="Makanan mempunyai tingkap yang sangat pendek.">Food has a very short window.</h2>
+      <p class="lead muted" data-bm="Sos berubah, herba layu, dan wap hilang dalam beberapa saat. Fotografi makanan pada tahap ini adalah kerja masa, bukan kerja penyuntingan &mdash; bingkai dan cahaya perlu sedia sebelum pinggan keluar dari dapur.">Sauces move, herbs wilt and steam disappears within seconds. Food photography at this level is a timing job, not an editing job &mdash; the frame and the light have to be ready before the plate leaves the kitchen.</p>
+    </div>
+    <div class="showcase reveal">
+      <div class="showcase__media">
+        <img src="assets/img/aujardin-b-1.jpg" alt="Plated dish photographed at Au Jardin, a one Michelin Star restaurant" loading="lazy" decoding="async" width="1400" height="787">
+      </div>
+      <div class="showcase__card">
+        <span class="chip" data-bm="Fotografi makanan">Food photography</span>
+        <h3 data-bm="Susunan cef ialah arah seni.">The chef's plating is the art direction.</h3>
+        <p data-bm="Kami tidak menyusun semula hidangan untuk kamera. Kerja kami ialah mencari sudut dan cahaya yang menunjukkan hidangan seperti yang dimaksudkan oleh cef &mdash; kemudian keluar dari jalan.">We do not restyle a dish for the camera. Our job is to find the angle and the light that show it the way the chef intended &mdash; then get out of the way.</p>
+        <a class="btn btn--ghost" style="margin-top:1.4rem" href="services.html" data-bm="Perkhidmatan kandungan kami <span class='arrow'>&rarr;</span>">Our content services <span class="arrow">&rarr;</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 3. THE CRAFT ===== -->
+<section class="section section--panel">
+  <div class="wrap split split--center split--rev">
+    <div class="split__media split__media--wide reveal">
+      <span class="frame" aria-hidden="true"></span>
+      <img src="assets/img/aujardin-c-1.jpg" alt="Kitchen detail and technique captured during the Au Jardin brand shoot" loading="lazy" decoding="async">
+    </div>
+    <div>
+      <span class="eyebrow reveal" data-bm="02 &middot; Ketukangan">02 &middot; The craft</span>
+      <h2 class="reveal" style="margin:1.1rem 0" data-bm="Bintang itu diperoleh di belakang pintu.">The star is earned behind the pass.</h2>
+      <p class="reveal" style="margin-bottom:1rem" data-bm="Hidangan siap menunjukkan hasilnya. Ketukangan menunjukkan sebabnya. Kami menggambarkan tangan, alat, dan pergerakan tepat yang berlaku beberapa saat sebelum pinggan meninggalkan dapur &mdash; kerana itulah cerita yang tidak boleh disalin oleh restoran lain.">The finished dish shows the result. The craft shows the reason. We shoot the hands, the tools and the precise movements that happen seconds before a plate leaves the kitchen &mdash; because that is the story another restaurant cannot copy.</p>
+      <p class="reveal" style="margin-bottom:1rem" data-bm="Merakam di dalam perkhidmatan bermakna bekerja pada tempo dapur: tiada penyusunan semula, tiada permintaan berulang, dan pencahayaan yang tidak menghalang sesiapa.">Filming inside service means working at the kitchen's tempo: no restaging, no repeat requests, and lighting that gets in nobody's way.</p>
+      <p class="reveal muted" data-bm="Hasilnya ialah pustaka yang boleh digunakan untuk laman web, sosial, penyenaraian tempahan dan liputan editorial.">The result is a library that works for the website, social, booking listings and editorial coverage.</p>
+      <div class="chip-row reveal" style="margin-top:1.8rem">
+        <span class="chip chip--ghost" data-bm="Merakam dalam perkhidmatan">Filmed in service</span>
+        <span class="chip chip--ghost" data-bm="Cahaya bukan mengganggu">Non-intrusive light</span>
+        <span class="chip chip--ghost" data-bm="Sedia editorial">Editorial ready</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 4. DELIVERABLES ===== -->
+<section class="section">
+  <div class="wrap">
+    <div class="section-head section-head--row reveal" style="margin-bottom:2.2rem">
+      <div class="section-head__text">
+        <span class="eyebrow" data-bm="Apa yang kami serahkan">What we delivered</span>
+        <h2 data-bm="Satu pustaka jenama, banyak saluran.">One brand library, many channels.</h2>
+      </div>
+      <a class="btn btn--ghost" href="contact.html" data-bm="Bincang projek F&amp;B <span class='arrow'>&rarr;</span>">Discuss an F&amp;B project <span class="arrow">&rarr;</span></a>
+    </div>
+    <div class="feature-row">
+      <div class="feature-row__item reveal">
+        <span class="n">01</span>
+        <h3 data-bm="Suasana bahagian luar &amp; ruang makan">Exterior and dining room atmosphere</h3>
+        <span class="arrow" aria-hidden="true">&rarr;</span>
+      </div>
+      <div class="feature-row__item reveal">
+        <span class="n">02</span>
+        <h3 data-bm="Fotografi makanan merentasi menu">Food photography across the menu</h3>
+        <span class="arrow" aria-hidden="true">&rarr;</span>
+      </div>
+      <div class="feature-row__item reveal">
+        <span class="n">03</span>
+        <h3 data-bm="Detail dapur &amp; ketukangan">Kitchen and craft detail</h3>
+        <span class="arrow" aria-hidden="true">&rarr;</span>
+      </div>
+      <div class="feature-row__item reveal">
+        <span class="n">04</span>
+        <h3 data-bm="Arah seni dan gredasi bersatu">Art direction and a unified grade</h3>
+        <span class="arrow" aria-hidden="true">&rarr;</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 5. GALLERY ===== -->
+<section class="section section--panel">
+  <div class="wrap">
+    <div class="section-head reveal" style="margin-bottom:2.4rem">
+      <span class="eyebrow" data-bm="Dari perkhidmatan">From service</span>
+      <h2 data-bm="Bingkai daripada Au Jardin.">Frames from Au Jardin.</h2>
+      <p class="lead muted" data-bm="Klik mana-mana bingkai untuk melihatnya lebih besar.">Tap any frame to see it larger.</p>
+    </div>
+    <div class="gallery-grid gallery-grid--3">
+      <button type="button" class="gallery-grid__thumb reveal" data-lightbox="aujardin" data-title="Au Jardin — the room" data-title-bm="Au Jardin — ruang" data-blurb="Atmosphere and light inside the dining room." data-blurb-bm="Suasana dan cahaya di dalam ruang makan.">
+        <img src="assets/img/aujardin-3.jpg" alt="Table setting and lighting inside the Au Jardin dining room" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="gallery-grid__thumb reveal" data-lightbox="aujardin" data-title="Au Jardin — plating" data-title-bm="Au Jardin — susunan" data-blurb="A finished plate photographed the moment it leaves the pass." data-blurb-bm="Hidangan siap dirakam pada saat ia meninggalkan dapur.">
+        <img src="assets/img/aujardin-b-2.jpg" alt="Finished plate photographed at Au Jardin" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="gallery-grid__thumb reveal" data-lightbox="aujardin" data-title="Au Jardin — the craft" data-title-bm="Au Jardin — ketukangan" data-blurb="Hands, tools and technique captured during service." data-blurb-bm="Tangan, alat dan teknik dirakam semasa perkhidmatan.">
+        <img src="assets/img/aujardin-c-2.jpg" alt="Chef's hands and technique captured during service at Au Jardin" loading="lazy" decoding="async">
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 6. BRAND IN THIS CASE ===== -->
+<section class="section section--tight">
+  <div class="wrap">
+    <div class="section-head section-head--center reveal" style="margin-bottom:2.2rem">
+      <span class="eyebrow" data-bm="Jenama dalam kes ini">Brand in this case</span>
+      <h2 data-bm="Au Jardin &mdash; satu Bintang Michelin.">Au Jardin &mdash; one Michelin Star.</h2>
+    </div>
+    <div class="logo-wall reveal">
+      <div class="logo-wall__item logo-wall__item--text">Au Jardin</div>
+      <div class="logo-wall__item logo-wall__item--text" data-bm="1 Bintang Michelin">1 Michelin Star</div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 7. QUOTE BAND ===== -->
+<section class="quote-band">
+  <div class="quote-band__bg" data-parallax="0.1">
+    <img src="assets/img/aujardin-b-1.jpg" alt="" aria-hidden="true" loading="lazy" decoding="async">
+  </div>
+  <div class="wrap quote-band__grid">
+    <div class="reveal">
+      <span class="quote-band__mark" aria-hidden="true">&ldquo;</span>
+      <blockquote data-bm="Mata sinematik mereka menjadikan jenama kami <span class='hl'>seindah rasa hidangan kami.</span>">Their cinematic eye made our brand look <span class="hl">as refined as our food tastes.</span></blockquote>
+      <div class="quote-band__by">&mdash; Au Jardin</div>
+    </div>
+    <div class="feature-row">
+      <div class="feature-row__item reveal">
+        <span class="n">01</span>
+        <h3 data-bm="Digambarkan mengikut tempo dapur">Shot at the kitchen's tempo</h3>
+        <span class="arrow" aria-hidden="true">&rarr;</span>
+      </div>
+      <div class="feature-row__item reveal">
+        <span class="n">02</span>
+        <h3 data-bm="Susunan cef dihormati">The chef's plating respected</h3>
+        <span class="arrow" aria-hidden="true">&rarr;</span>
+      </div>
+      <div class="feature-row__item reveal">
+        <span class="n">03</span>
+        <h3 data-bm="Satu palet merentasi tiga bab">One palette across three chapters</h3>
+        <span class="arrow" aria-hidden="true">&rarr;</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== NEXT CASE ===== -->
+<a class="next-case" href="case-coffee.html">
+  <div class="next-case__bg"><img src="assets/img/rocket-1.jpg" alt="" aria-hidden="true" loading="lazy" decoding="async"></div>
+  <div class="wrap">
+    <span class="next-case__k" data-i18n="ui.nextCase">Next case</span>
+    <h2 data-bm="Kopi Khusus">Specialty Coffee</h2>
+    <span class="next-case__go" data-i18n="ui.viewCase">View case study <span class="arrow">&rarr;</span></span>
+  </div>
+</a>
+
+<!-- ===== FOOTER (copy verbatim across pages) ===== -->
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-top footer-top--4">
+      <div class="footer-brand">
+        <img src="assets/logo-white.png" alt="Klasse Productions" width="150" height="32" loading="lazy" decoding="async">
+        <p data-i18n="foot.tagline">A creative &amp; production house specialising in content, digital, and brand storytelling. Transforming businesses through innovative strategies that drive real, measurable results.</p>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="foot.explore">Explore</h4>
+        <ul>
+          <li><a href="index.html" data-i18n="foot.home">Home</a></li>
+          <li><a href="about.html" data-i18n="foot.about">About Us</a></li>
+          <li><a href="services.html" data-i18n="foot.services">Services</a></li>
+          <li><a href="work.html" data-i18n="foot.work">Work</a></li>
+          <li><a href="process.html" data-i18n="foot.process">Process</a></li>
+          <li><a href="clients.html" data-i18n="foot.clients">Clients</a></li>
+          <li><a href="contact.html" data-i18n="foot.contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="foot.cases">Case Studies</h4>
+        <ul>
+          <li><a href="case-prubsn.html">PruBSN</a></li>
+          <li><a href="case-podcasts.html" data-bm="Podcast">Podcasts</a></li>
+          <li><a href="case-anaaka.html">Anaaka</a></li>
+          <li><a href="case-aujardin.html">Au Jardin</a></li>
+          <li><a href="case-coffee.html" data-bm="Kopi Khusus">Specialty Coffee</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="foot.office">Office</h4>
+        <p>Klasse Production Sdn Bhd<br>A2-13-1, Arcoris SOHO, Jalan Kiara<br>50480 Kuala Lumpur<br>Wilayah Persekutuan, Malaysia</p>
+        <p style="margin-top:1rem"><a href="mailto:omarbarakbah@klasseproduction.com">omarbarakbah@klasseproduction.com</a><br><a href="tel:+60122202015">+60 12-220 2015</a><br><a href="https://wa.me/60122202015" target="_blank" rel="noopener">WhatsApp</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span id="year">2025</span> Klasse Production Sdn Bhd 202401052810 (1598653-T). <span data-i18n="foot.rights">All rights reserved.</span></span>
+      <div class="social">
+        <a href="https://www.facebook.com/klasseproductions" aria-label="Klasse Productions on Facebook" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 21v-8h2.69l.4-3.12h-3.09V7.9c0-.9.25-1.52 1.55-1.52h1.65V3.58A22 22 0 0 0 14.3 3.45c-2.44 0-4.11 1.49-4.11 4.22v2.21H7.5V13h2.69v8h3.31Z"/></svg></a>
+        <a href="https://x.com/classprod" aria-label="Klasse Productions on X (Twitter)" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.53 3H20.5l-6.48 7.4L21.6 21h-5.97l-4.68-6.12L5.6 21H2.63l6.93-7.92L2.4 3h6.12l4.23 5.6L17.53 3Zm-1.05 16.2h1.65L7.6 4.7H5.83l10.65 14.5Z"/></svg></a>
+        <!-- TODO: confirm IG handle -->
+        <a href="https://www.instagram.com/klasseproductions" aria-label="Klasse Productions on Instagram" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.2c3.2 0 3.6 0 4.9.07 1.2.05 1.8.25 2.2.42.6.2 1 .5 1.4.9.4.4.7.8.9 1.4.17.4.37 1 .42 2.2.06 1.3.07 1.7.07 4.9s0 3.6-.07 4.9c-.05 1.2-.25 1.8-.42 2.2a3.8 3.8 0 0 1-.9 1.4c-.4.4-.8.7-1.4.9-.4.17-1 .37-2.2.42-1.3.06-1.7.07-4.9.07s-3.6 0-4.9-.07c-1.2-.05-1.8-.25-2.2-.42a3.8 3.8 0 0 1-1.4-.9 3.8 3.8 0 0 1-.9-1.4c-.17-.4-.37-1-.42-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.07-4.9c.05-1.2.25-1.8.42-2.2.2-.6.5-1 .9-1.4.4-.4.8-.7 1.4-.9.4-.17 1-.37 2.2-.42C8.4 2.2 8.8 2.2 12 2.2Zm0 1.8c-3.1 0-3.5 0-4.7.07-.9.04-1.4.2-1.7.32-.43.17-.74.37-1.06.69-.32.32-.52.63-.69 1.06-.12.3-.28.8-.32 1.7C3.46 9.1 3.45 9.5 3.45 12s0 2.9.07 4.1c.04.9.2 1.4.32 1.7.17.43.37.74.69 1.06.32.32.63.52 1.06.69.3.12.8.28 1.7.32 1.2.06 1.6.07 4.7.07s3.5 0 4.7-.07c.9-.04 1.4-.2 1.7-.32.43-.17.74-.37 1.06-.69.32-.32.52-.63.69-1.06.12-.3.28-.8.32-1.7.06-1.2.07-1.6.07-4.1s0-2.9-.07-4.1c-.04-.9-.2-1.4-.32-1.7a2.9 2.9 0 0 0-.69-1.06 2.9 2.9 0 0 0-1.06-.69c-.3-.12-.8-.28-1.7-.32C15.5 4 15.1 4 12 4Zm0 3.05A4.95 4.95 0 1 1 7.05 12 4.95 4.95 0 0 1 12 7.05Zm0 8.16A3.21 3.21 0 1 0 8.79 12 3.21 3.21 0 0 0 12 15.21Zm6.3-8.36a1.16 1.16 0 1 1-1.15-1.15 1.16 1.16 0 0 1 1.15 1.15Z"/></svg></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/main.js"></script>
+</body>
+</html>

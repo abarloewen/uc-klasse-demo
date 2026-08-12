@@ -35,7 +35,7 @@ body{
   overflow-x:hidden;
   -webkit-font-smoothing:antialiased;
 }
-img{max-width:100%;display:block}
+img{max-width:100%;height:auto;display:block}
 a{color:inherit;text-decoration:none}
 button{font-family:inherit;cursor:pointer}
 .wrap{width:min(var(--wrap),92vw);margin-inline:auto}
@@ -693,4 +693,410 @@ body.menu-open{overflow:hidden}
   .lb-btn{width:42px;height:42px}
   .lightbox__media img{max-height:60vh}
   .cine-hero__actions .play-row{width:100%}
+}
+
+/* ###########################################################################
+   ###  IMAGE-FORWARD COMPONENT LIBRARY (v2 overhaul)                      ###
+   ###  Shared vocabulary for EVERY page. Copy the markup patterns from    ###
+   ###  index.html / about.html. Breakpoints used: 980 / 900 / 640.        ###
+   ###  Rules: real photos only (assets/img, assets/logos), always alt,    ###
+   ###  aspect-ratio on every media box so nothing shifts while loading.   ###
+   ########################################################################### */
+
+/* --- .section-head ---------------------------------------------------------
+   Standard section intro: .eyebrow + h2 + optional lead paragraph.
+   Modifiers: .section-head--center (centred), .section-head--row (head left,
+   CTA right on one line).
+   <div class="section-head reveal">
+     <span class="eyebrow">…</span><h2>…</h2><p class="lead muted">…</p>
+   </div>                                                                    */
+.section-head{max-width:68ch}
+.section-head h2{margin:1rem 0 .9rem}
+.section-head p{max-width:64ch}
+.section-head--center{margin-inline:auto;text-align:center}
+.section-head--center .eyebrow{justify-content:center}
+.section-head--center p{margin-inline:auto}
+.section-head--row{display:flex;align-items:flex-end;justify-content:space-between;gap:2.5rem;flex-wrap:wrap;max-width:none}
+.section-head--row .section-head__text{max-width:56ch;min-width:0}
+.section-head--row h2{margin:1rem 0 0}
+
+/* --- .chip -----------------------------------------------------------------
+   Small pill label: category, meta, or tag.
+   Modifiers: .chip--ghost (neutral), .chip--solid (filled orange).
+   <span class="chip">Live Podcast</span>                                    */
+.chip{display:inline-flex;align-items:center;gap:.4rem;font-size:.67rem;font-weight:700;letter-spacing:.13em;
+  text-transform:uppercase;color:var(--orange-tint);background:rgba(234,88,12,.13);
+  border:1px solid rgba(234,88,12,.34);border-radius:100px;padding:.34rem .8rem;line-height:1.4;white-space:nowrap}
+.chip--ghost{color:var(--ink-soft);background:rgba(255,255,255,.04);border-color:var(--line-2)}
+.chip--solid{background:var(--orange);border-color:var(--orange);color:#fff}
+.chip-row{display:flex;flex-wrap:wrap;gap:.5rem}
+
+/* --- .hero-media -----------------------------------------------------------
+   Full-bleed photographic hero with a two-axis gradient scrim so white text
+   stays readable over any photo. The __bg element is parallax-ready.
+   Modifier: .hero-media--short (interior pages).
+   <section class="hero-media">
+     <div class="hero-media__bg" data-parallax="0.14"><img … fetchpriority="high"></div>
+     <div class="hero-media__scrim" aria-hidden="true"></div>
+     <div class="wrap hero-media__body"> … </div>
+     <a class="scroll-cue" href="#next">…</a>
+   </section>                                                                */
+.hero-media{position:relative;isolation:isolate;overflow:hidden;min-height:94vh;min-height:94svh;
+  display:flex;align-items:flex-end;padding:8rem 0 7vh}
+.hero-media--short{min-height:64vh;min-height:64svh;padding:7rem 0 4.5vh}
+.hero-media__bg{position:absolute;inset:-8% 0;z-index:-2;will-change:transform}
+.hero-media__bg img{width:100%;height:116%;object-fit:cover;background:var(--bg-3)}
+.hero-media__scrim{position:absolute;inset:0;z-index:-1;background:
+  linear-gradient(180deg,rgba(10,10,11,.74) 0%,rgba(10,10,11,.26) 34%,rgba(10,10,11,.82) 78%,rgba(10,10,11,.99) 100%),
+  linear-gradient(90deg,rgba(10,10,11,.8) 0%,rgba(10,10,11,.18) 60%,rgba(10,10,11,0) 100%)}
+.hero-media__body{position:relative;z-index:2;width:min(var(--wrap),92vw)}
+.hero-media h1{max-width:17ch;text-shadow:0 6px 44px rgba(0,0,0,.65)}
+.hero-media .lead{max-width:58ch;margin-top:1.5rem}
+.hero-media__actions{display:flex;flex-wrap:wrap;gap:1rem;align-items:center;margin-top:2.4rem}
+.hero-media__meta{display:flex;flex-wrap:wrap;gap:.7rem 2rem;margin-top:2.6rem;padding-top:1.5rem;border-top:1px solid var(--line-2)}
+.hero-media__meta span{font-size:.75rem;letter-spacing:.13em;text-transform:uppercase;color:var(--ink-soft);font-weight:600;
+  display:inline-flex;align-items:center;gap:.55rem}
+.hero-media__meta span::before{content:"";flex:0 0 auto;width:6px;height:6px;border-radius:50%;background:var(--orange)}
+
+/* --- .scroll-cue : animated "scroll" hint pinned to the bottom of a hero -- */
+.scroll-cue{position:absolute;left:50%;bottom:1.4rem;transform:translateX(-50%);z-index:4;
+  display:inline-flex;flex-direction:column;align-items:center;gap:.55rem;
+  font-size:.64rem;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);font-weight:700}
+.scroll-cue:hover{color:var(--orange-tint)}
+.scroll-cue__line{width:1px;height:42px;background:rgba(255,255,255,.18);position:relative;overflow:hidden}
+.scroll-cue__line::after{content:"";position:absolute;left:0;top:-45%;width:1px;height:45%;
+  background:linear-gradient(180deg,transparent,var(--orange-tint));animation:cueDrop 2.4s var(--ease) infinite}
+@keyframes cueDrop{0%{top:-45%}70%,100%{top:100%}}
+@media(max-width:640px){.scroll-cue{display:none}}
+
+/* --- .split (extended) -----------------------------------------------------
+   50/50 image + text. Reverse with .split--rev (image first on desktop,
+   text-first stacking is preserved on mobile). Media ratios:
+   .split__media (4/5 default) · --wide (4/3) · --square (1/1) · --cine (16/9) */
+.split--rev .split__media{order:-1}
+@media(max-width:900px){.split--rev .split__media{order:0}}
+.split--center{align-items:center}
+.split--top{align-items:flex-start}
+.split__media--wide{aspect-ratio:4/3}
+.split__media--square{aspect-ratio:1/1}
+.split__media--cine{aspect-ratio:16/9}
+.split__media--auto{aspect-ratio:auto}
+.split__badge{position:absolute;left:1.2rem;bottom:1.2rem;z-index:3}
+.split__stack{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+.split__stack .split__media{aspect-ratio:1/1}
+.split__stack .split__media:first-child{grid-column:span 2;aspect-ratio:16/10}
+
+/* --- .mosaic ---------------------------------------------------------------
+   Asymmetric 2–3 column image grid. Cells: .mosaic__cell, modifiers
+   .is-tall (2 rows) and .is-wide (2 cols). Optional .mosaic__cap caption.
+   <div class="mosaic"><figure class="mosaic__cell is-tall"><img …>
+     <figcaption class="mosaic__cap">…</figcaption></figure>…</div>          */
+.mosaic{display:grid;grid-template-columns:repeat(3,1fr);gap:1.1rem}
+.mosaic--2{grid-template-columns:repeat(2,1fr)}
+.mosaic__cell{position:relative;display:block;width:100%;padding:0;margin:0;overflow:hidden;min-width:0;aspect-ratio:4/3;
+  border-radius:var(--r);border:1px solid var(--line);background:var(--bg-3);
+  font:inherit;color:inherit;text-align:left}
+/* a .mosaic__cell may be a <figure>, an <a> or a <button> (lightbox thumb) */
+button.mosaic__cell,a.mosaic__cell{cursor:zoom-in}
+a.mosaic__cell{cursor:pointer}
+.mosaic__cell.is-tall{grid-row:span 2;aspect-ratio:3/4}
+.mosaic__cell.is-wide{grid-column:span 2;aspect-ratio:16/9}
+.mosaic__cell img{width:100%;height:100%;object-fit:cover;filter:brightness(.86);
+  transition:transform 1s var(--ease),filter .5s}
+.mosaic__cell:hover img{transform:scale(1.07);filter:brightness(1)}
+.mosaic__cell::after{content:"";position:absolute;inset:0;border-radius:var(--r);border:1px solid transparent;transition:border-color .35s;pointer-events:none}
+.mosaic__cell:hover::after{border-color:rgba(234,88,12,.55)}
+.mosaic__cap{position:absolute;left:0;right:0;bottom:0;z-index:2;padding:1.4rem 1.2rem .95rem;
+  background:linear-gradient(180deg,transparent,rgba(10,10,11,.92));
+  font-size:.74rem;letter-spacing:.1em;text-transform:uppercase;color:#fff;font-weight:700}
+@media(max-width:900px){
+  .mosaic{grid-template-columns:repeat(2,1fr)}
+  .mosaic__cell.is-wide{grid-column:span 2;aspect-ratio:16/9}
+  .mosaic__cell.is-tall{grid-row:span 1;aspect-ratio:3/4}
+}
+@media(max-width:640px){
+  .mosaic,.mosaic--2{grid-template-columns:1fr;gap:.9rem}
+  .mosaic__cell,.mosaic__cell.is-tall,.mosaic__cell.is-wide{grid-column:span 1;grid-row:span 1;aspect-ratio:4/3}
+}
+
+/* --- .showcase -------------------------------------------------------------
+   One large cinematic image with a floating caption card overlapping it.
+   Modifier .showcase--left puts the card on the left.
+   <div class="showcase"><div class="showcase__media"><img …></div>
+     <div class="showcase__card"><h3>…</h3><p>…</p></div></div>              */
+.showcase{position:relative}
+.showcase__media{position:relative;overflow:hidden;aspect-ratio:16/9;
+  border-radius:var(--r-lg);border:1px solid var(--line);box-shadow:var(--shadow)}
+.showcase__media img{width:100%;height:100%;object-fit:cover;transition:transform 1.4s var(--ease)}
+.showcase:hover .showcase__media img{transform:scale(1.05)}
+.showcase__media::after{content:"";position:absolute;inset:0;
+  background:linear-gradient(180deg,rgba(10,10,11,.15) 0%,transparent 35%,rgba(10,10,11,.8) 100%)}
+.showcase__card{position:relative;z-index:3;margin:-6rem 0 0 auto;max-width:520px;
+  background:rgba(14,14,16,.94);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+  border:1px solid var(--line-2);border-left:3px solid var(--orange);border-radius:var(--r);
+  padding:2rem 2.1rem 2.1rem;box-shadow:var(--shadow)}
+.showcase--left .showcase__card{margin-left:0;margin-right:auto}
+.showcase__card h3{color:#fff;margin:.7rem 0 .7rem}
+.showcase__card p{font-size:.95rem}
+@media(max-width:900px){.showcase__card{margin:-3rem 1rem 0;max-width:none;padding:1.6rem}}
+@media(max-width:640px){.showcase__media{aspect-ratio:4/3}.showcase__card{margin:-2rem .5rem 0}}
+
+/* --- .logo-wall ------------------------------------------------------------
+   Client logo grid. Logos sit dimmed + greyscale at rest and go full colour
+   on hover. Use the transparent PNGs in assets/logos/.
+   <div class="logo-wall"><div class="logo-wall__item"><img src="assets/logos/x.png"
+     alt="X logo" loading="lazy" decoding="async"></div>…</div>              */
+.logo-wall{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:1px;
+  background:var(--line);border:1px solid var(--line);border-radius:var(--r-lg);overflow:hidden}
+.logo-wall__item{display:flex;align-items:center;justify-content:center;min-width:0;
+  background:var(--panel);padding:1.9rem 1.4rem;min-height:124px;transition:background .35s}
+.logo-wall__item img{max-height:48px;width:auto;max-width:100%;object-fit:contain;
+  opacity:.48;filter:grayscale(1) brightness(1.7);
+  transition:opacity .35s var(--ease),filter .35s var(--ease),transform .35s var(--ease)}
+.logo-wall__item:hover{background:var(--bg-3)}
+.logo-wall__item:hover img{opacity:1;filter:none;transform:scale(1.06)}
+.logo-wall__item--text{font-family:"Anton",sans-serif;font-size:1.15rem;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--muted);transition:color .35s}
+.logo-wall__item--text:hover{color:var(--orange-tint)}
+@media(max-width:640px){
+  .logo-wall{grid-template-columns:repeat(2,1fr)}
+  .logo-wall__item{min-height:96px;padding:1.3rem 1rem}
+  .logo-wall__item img{max-height:34px}
+}
+
+/* --- .logo-marquee ---------------------------------------------------------
+   Infinite scrolling logo strip. Duplicate the track's children once so the
+   loop is seamless; pauses on hover.                                        */
+.logo-marquee{overflow:hidden;background:var(--bg-2);padding:1.5rem 0;
+  border-top:1px solid var(--line);border-bottom:1px solid var(--line);
+  -webkit-mask-image:linear-gradient(90deg,transparent,#000 10%,#000 90%,transparent);
+          mask-image:linear-gradient(90deg,transparent,#000 10%,#000 90%,transparent)}
+.logo-marquee__track{display:flex;align-items:center;gap:4rem;width:max-content;animation:marquee 40s linear infinite}
+.logo-marquee:hover .logo-marquee__track{animation-play-state:paused}
+.logo-marquee__track img{height:34px;width:auto;opacity:.42;filter:grayscale(1) brightness(1.7);transition:.3s}
+.logo-marquee__track img:hover{opacity:1;filter:none}
+@media(max-width:640px){.logo-marquee__track{gap:2.6rem}.logo-marquee__track img{height:26px}}
+
+/* --- .quote-band -----------------------------------------------------------
+   Oversized pull quote set over a real photo. Attribute to the BRAND only.
+   <section class="quote-band"><div class="quote-band__bg" data-parallax="0.1">
+     <img …></div><div class="wrap"><blockquote>…</blockquote>
+     <div class="quote-band__by">— PruBSN</div></div></section>              */
+.quote-band{position:relative;isolation:isolate;overflow:hidden;padding:7rem 0}
+.quote-band__bg{position:absolute;inset:-8% 0;z-index:-2;will-change:transform}
+.quote-band__bg img{width:100%;height:116%;object-fit:cover;filter:brightness(.42) grayscale(.35)}
+.quote-band::after{content:"";position:absolute;inset:0;z-index:-1;background:
+  linear-gradient(180deg,rgba(10,10,11,.8),rgba(10,10,11,.88)),
+  radial-gradient(60% 65% at 28% 50%,rgba(234,88,12,.2),transparent 70%)}
+.quote-band__mark{display:block;font-family:"Anton",sans-serif;font-size:4.6rem;line-height:.5;
+  color:var(--orange);opacity:.6;margin-bottom:1.4rem}
+.quote-band blockquote{max-width:24ch;margin:0;font-family:"Anton",sans-serif;text-transform:uppercase;
+  line-height:1.03;letter-spacing:.5px;font-size:clamp(1.75rem,4.2vw,3.2rem);color:#fff}
+.quote-band blockquote .hl{color:var(--orange-tint)}
+.quote-band__by{margin-top:1.6rem;font-size:.84rem;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--orange-tint);font-weight:700}
+.quote-band__grid{display:grid;grid-template-columns:1.15fr .85fr;gap:3.5rem;align-items:center}
+@media(max-width:900px){.quote-band{padding:5rem 0}.quote-band__grid{grid-template-columns:1fr;gap:2.2rem}}
+
+/* --- .stat-band ------------------------------------------------------------
+   Full-width row of count-up figures. Each item animates its top rule in
+   when it scrolls into view (main.js adds .in) and counts the [data-count].
+   <div class="stat-band"><div class="stat-band__item">
+     <div class="stat-band__n"><span data-count="9">9</span></div>
+     <div class="stat-band__l">Core capabilities</div></div>…</div>          */
+.stat-band{display:grid;grid-template-columns:repeat(4,1fr);gap:0;background:var(--panel);
+  border:1px solid var(--line);border-radius:var(--r-lg);overflow:hidden}
+.stat-band__item{position:relative;min-width:0;padding:2.7rem 1.3rem;text-align:center;
+  border-right:1px solid var(--line);transition:background .35s}
+.stat-band__item:last-child{border-right:0}
+.stat-band__item::before{content:"";position:absolute;top:0;left:0;right:0;height:3px;
+  background:linear-gradient(90deg,var(--orange),var(--orange-tint));
+  transform:scaleX(0);transform-origin:left;transition:transform .9s var(--ease)}
+.stat-band__item.in::before{transform:scaleX(1)}
+.stat-band__item:hover{background:var(--bg-3)}
+.stat-band__n{font-family:"Anton",sans-serif;font-size:clamp(2.3rem,5vw,3.5rem);color:#fff;line-height:1;
+  display:flex;justify-content:center;align-items:baseline;gap:2px}
+.stat-band__n .prefix,.stat-band__n .suffix{color:var(--orange-tint)}
+.stat-band__l{margin-top:.75rem;font-size:.78rem;letter-spacing:.09em;text-transform:uppercase;
+  color:var(--muted);font-weight:600}
+@media(max-width:900px){
+  .stat-band{grid-template-columns:repeat(2,1fr)}
+  .stat-band__item:nth-child(2n){border-right:0}
+  .stat-band__item:nth-child(-n+2){border-bottom:1px solid var(--line)}
+}
+
+/* --- .case-card ------------------------------------------------------------
+   Portfolio card: real image + category chip + hover zoom + stretched link.
+   Ratio modifiers: .case-card--tall (3/4) · .case-card--wide (16/9).
+   <article class="case-card"><div class="case-card__media"><img …>
+     <span class="chip case-card__chip">Commercial</span></div>
+     <div class="case-card__body"><h3 class="case-card__title">…</h3><p>…</p>
+     <span class="case-card__more">View case study <span class="arrow">→</span></span></div>
+     <a class="case-card__link" href="case-anaaka.html"><span class="sr-only">…</span></a>
+   </article>                                                                */
+.case-card{position:relative;display:flex;flex-direction:column;min-width:0;overflow:hidden;
+  background:var(--panel);border:1px solid var(--line);border-radius:var(--r-lg);
+  transition:transform .4s var(--ease),border-color .4s,box-shadow .4s}
+.case-card:hover,.case-card:focus-within{transform:translateY(-6px);border-color:rgba(234,88,12,.55);
+  box-shadow:0 34px 74px -36px rgba(0,0,0,.95)}
+.case-card__media{position:relative;overflow:hidden;aspect-ratio:4/3;background:var(--bg-3)}
+.case-card--tall .case-card__media{aspect-ratio:3/4}
+.case-card--wide .case-card__media{aspect-ratio:16/9}
+.case-card__media img{width:100%;height:100%;object-fit:cover;filter:brightness(.82);
+  transition:transform 1s var(--ease),filter .5s}
+.case-card:hover .case-card__media img,.case-card:focus-within .case-card__media img{transform:scale(1.08);filter:brightness(.96)}
+.case-card__media::after{content:"";position:absolute;inset:0;pointer-events:none;
+  background:linear-gradient(180deg,transparent 45%,rgba(10,10,11,.55))}
+.case-card__chip{position:absolute;top:1rem;left:1rem;z-index:2}
+.case-card__body{display:flex;flex-direction:column;gap:.55rem;flex:1;padding:1.5rem 1.6rem 1.6rem}
+.case-card__title{font-family:"Anton",sans-serif;text-transform:uppercase;letter-spacing:.4px;
+  font-size:1.2rem;line-height:1.06;color:#fff}
+.case-card__body p{font-size:.92rem}
+.case-card__more{margin-top:auto;padding-top:.9rem;display:inline-flex;align-items:center;gap:.5rem;
+  font-size:.72rem;font-weight:700;letter-spacing:.13em;text-transform:uppercase;color:var(--orange-tint)}
+.case-card__more .arrow{transition:transform .3s var(--ease)}
+.case-card:hover .case-card__more .arrow{transform:translateX(5px)}
+.case-card__link{position:absolute;inset:0;z-index:4}
+.case-card__link:focus-visible{outline:2px solid var(--orange-tint);outline-offset:-4px}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+
+/* --- .case-hero + .case-meta ----------------------------------------------
+   Case-study page hero: big photo, chip row, H1, and a 4-up meta table.
+   <section class="case-hero"><div class="case-hero__bg" data-parallax="0.12">
+     <img …></div><div class="case-hero__scrim"></div><div class="wrap">…
+     <dl class="case-meta"><div><dt>Client</dt><dd>PruBSN</dd></div>…</dl>
+   </div></section>                                                          */
+.case-hero{position:relative;isolation:isolate;overflow:hidden;min-height:76svh;
+  display:flex;align-items:flex-end;padding:9rem 0 4rem}
+.case-hero__bg{position:absolute;inset:-8% 0;z-index:-2;will-change:transform}
+.case-hero__bg img{width:100%;height:116%;object-fit:cover;background:var(--bg-3)}
+.case-hero__scrim{position:absolute;inset:0;z-index:-1;
+  background:linear-gradient(180deg,rgba(10,10,11,.72),rgba(10,10,11,.38) 45%,rgba(10,10,11,.99))}
+.case-hero .wrap{position:relative;z-index:2}
+.case-hero h1{max-width:19ch;font-size:clamp(2.3rem,6.4vw,5.4rem);margin-top:1.1rem}
+.case-hero .lead{max-width:58ch;margin-top:1.3rem}
+.case-meta{display:grid;grid-template-columns:repeat(4,1fr);gap:1.4rem;margin:2.4rem 0 0;
+  padding-top:1.8rem;border-top:1px solid var(--line-2)}
+.case-meta>div{min-width:0}
+.case-meta dt{font-size:.68rem;letter-spacing:.15em;text-transform:uppercase;color:var(--muted);font-weight:700;margin-bottom:.35rem}
+.case-meta dd{margin:0;font-size:.95rem;color:#fff}
+@media(max-width:900px){.case-hero{min-height:62svh;padding-top:7rem}.case-meta{grid-template-columns:repeat(2,1fr)}}
+
+/* --- .step-list ------------------------------------------------------------
+   Numbered process steps (auto-numbered, 01 / 02 / 03 …).
+   <ol class="step-list step-list--2"><li class="step-list__item">
+     <h3>Discover</h3><p>…</p></li>…</ol>                                    */
+.step-list{list-style:none;counter-reset:step;display:grid;gap:1.1rem;margin:0;padding:0}
+.step-list--2{grid-template-columns:repeat(2,1fr)}
+.step-list--4{grid-template-columns:repeat(4,1fr)}
+.step-list__item{counter-increment:step;position:relative;min-width:0;
+  background:var(--panel);border:1px solid var(--line);border-radius:var(--r);
+  padding:1.8rem 1.8rem 1.7rem 5.3rem;
+  transition:transform .35s var(--ease),border-color .35s,background .35s}
+.step-list__item::before{content:counter(step,decimal-leading-zero);position:absolute;left:1.7rem;top:1.6rem;
+  font-family:"Anton",sans-serif;font-size:1.55rem;line-height:1;letter-spacing:.06em;color:var(--orange)}
+.step-list__item:hover{transform:translateY(-4px);border-color:var(--line-2);background:var(--bg-3)}
+.step-list__item h3{color:#fff;margin-bottom:.5rem}
+.step-list__item p{font-size:.93rem}
+@media(max-width:980px){.step-list--4{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:900px){.step-list--2{grid-template-columns:1fr}}
+@media(max-width:640px){
+  .step-list--4{grid-template-columns:1fr}
+  .step-list__item{padding:1.6rem 1.3rem 1.5rem 4.3rem}
+  .step-list__item::before{left:1.2rem;top:1.5rem;font-size:1.3rem}
+}
+
+/* --- .gallery-grid ---------------------------------------------------------
+   Lightbox thumbnails. Put data-lightbox="<group-name>" on each thumb and
+   main.js wires up the viewer automatically (no .lightbox markup needed).
+   Optional per-thumb: data-full="…-large.jpg", data-title, data-blurb,
+   data-blurb-bm.
+   <div class="gallery-grid"><button class="gallery-grid__thumb"
+     data-lightbox="anaaka" data-title="Anaaka" data-blurb="…">
+     <img src="assets/img/anaaka-1.jpg" alt="…" loading="lazy" decoding="async">
+   </button>…</div>                                                          */
+.gallery-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:.9rem}
+.gallery-grid--3{grid-template-columns:repeat(3,1fr)}
+.gallery-grid--2{grid-template-columns:repeat(2,1fr)}
+.gallery-grid__thumb{position:relative;overflow:hidden;min-width:0;padding:0;
+  aspect-ratio:4/3;cursor:zoom-in;background:var(--bg-3);
+  border:1px solid var(--line);border-radius:var(--r);display:block;width:100%}
+.gallery-grid__thumb img{width:100%;height:100%;object-fit:cover;filter:brightness(.85);
+  transition:transform .9s var(--ease),filter .4s}
+.gallery-grid__thumb:hover img{transform:scale(1.08);filter:brightness(1)}
+.gallery-grid__thumb::after{content:"";position:absolute;inset:0;border-radius:var(--r);
+  border:1px solid transparent;transition:border-color .3s;pointer-events:none}
+.gallery-grid__thumb:hover::after{border-color:rgba(234,88,12,.6)}
+@media(max-width:900px){.gallery-grid,.gallery-grid--3{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:640px){.gallery-grid,.gallery-grid--3,.gallery-grid--2{grid-template-columns:repeat(2,1fr);gap:.7rem}}
+
+/* --- .next-case ------------------------------------------------------------
+   Full-bleed link between case studies (put at the foot of every case page).
+   <a class="next-case" href="case-anaaka.html"><div class="next-case__bg">
+     <img …></div><div class="wrap"><span class="next-case__k">Next case</span>
+     <h2>Anaaka</h2><span class="next-case__go">View case study
+     <span class="arrow">→</span></span></div></a>                           */
+.next-case{position:relative;display:flex;align-items:center;isolation:isolate;overflow:hidden;
+  min-height:42vh;padding:4.5rem 0}
+.next-case__bg{position:absolute;inset:0;z-index:-2}
+.next-case__bg img{width:100%;height:100%;object-fit:cover;filter:brightness(.4) grayscale(.4);
+  transition:transform 1.4s var(--ease),filter .6s}
+.next-case:hover .next-case__bg img{transform:scale(1.06);filter:brightness(.56) grayscale(0)}
+.next-case::after{content:"";position:absolute;inset:0;z-index:-1;
+  background:linear-gradient(90deg,rgba(10,10,11,.88),rgba(10,10,11,.5))}
+.next-case .wrap{position:relative;z-index:2}
+.next-case__k{font-size:.7rem;letter-spacing:.19em;text-transform:uppercase;color:var(--orange-tint);font-weight:700}
+.next-case h2{margin-top:.9rem;color:#fff}
+.next-case__go{margin-top:1.4rem;display:inline-flex;align-items:center;gap:.6rem;
+  font-size:.78rem;letter-spacing:.11em;text-transform:uppercase;font-weight:700;color:#fff}
+.next-case__go .arrow{transition:transform .3s var(--ease)}
+.next-case:hover .next-case__go .arrow{transform:translateX(6px)}
+
+/* --- .feature-row : icon-free, rule-separated text list (services previews) */
+.feature-row{display:grid;gap:0;border-top:1px solid var(--line)}
+.feature-row__item{display:grid;grid-template-columns:auto 1fr auto;gap:1.4rem;align-items:baseline;
+  padding:1.5rem 0;border-bottom:1px solid var(--line);transition:padding .35s var(--ease),color .35s}
+.feature-row__item .n{font-family:"Anton",sans-serif;font-size:1rem;color:var(--orange-tint);letter-spacing:.08em}
+.feature-row__item h3{color:#fff;min-width:0}
+.feature-row__item .arrow{color:var(--muted);transition:transform .3s var(--ease),color .3s}
+.feature-row__item:hover{padding-left:.9rem}
+.feature-row__item:hover .arrow{color:var(--orange-tint);transform:translateX(5px)}
+@media(max-width:640px){.feature-row__item{grid-template-columns:auto 1fr;gap:.9rem}.feature-row__item .arrow{display:none}}
+
+/* --- nav breathing room: 6 links + CTA + EN/BM needs a tighter gap ~1100px */
+@media(max-width:1100px) and (min-width:901px){
+  .nav__links{gap:1.3rem}
+  .nav__links a:not(.btn){font-size:.79rem}
+  .nav__cta{padding:.65rem 1rem;font-size:.78rem}
+  .nav__right{gap:.85rem}
+}
+
+/* --- .footer-top--4 : four-column footer (brand / explore / cases / office) */
+.footer-top--4{grid-template-columns:1.5fr 1fr 1fr 1.35fr}
+@media(max-width:980px){.footer-top--4{grid-template-columns:1fr 1fr}}
+@media(max-width:640px){.footer-top--4{grid-template-columns:1fr}}
+
+/* --- min-width guards: stop long words/images blowing out grid + flex kids - */
+.grid>*,.split>*,.mosaic>*,.stats>*,.stat-band>*,.logo-wall>*,.gallery-grid>*,
+.packages>*,.quotes>*,.value-grid>*,.scope-line>*,.step-list>*,.case-meta>*,
+.footer-top>*,.contact-grid>*{min-width:0}
+
+/* --- reduced motion: neutralise the new components' motion ---------------- */
+@media (prefers-reduced-motion: reduce){
+  .hero-media__bg,.case-hero__bg,.quote-band__bg{transform:none !important}
+  .scroll-cue__line::after{animation:none !important}
+  .logo-marquee__track{animation:none !important}
+  .case-card:hover,.step-list__item:hover,.stat-band__item:hover{transform:none !important}
+}
+
+/* --- new components: mobile spacing pass --------------------------------- */
+@media(max-width:640px){
+  .hero-media{min-height:88svh;padding:6.5rem 0 8vh}
+  .hero-media--short{min-height:56svh;padding:6rem 0 4vh}
+  .hero-media__actions{gap:.8rem;margin-top:2rem}
+  .hero-media__meta{gap:.6rem 1.2rem;margin-top:2rem}
+  .quote-band{padding:4.4rem 0}
+  .quote-band__mark{font-size:3.4rem}
+  .next-case{min-height:34vh;padding:3.4rem 0}
+  .section-head--row{gap:1.4rem}
 }

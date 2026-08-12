@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Specialty Coffee Case Study — Option-O, Rocket Giotto &amp; Bike &amp; Brew | Klasse Productions</title>
+<meta name="description" content="Three specialty coffee launches produced by Klasse Productions in Kuala Lumpur: the Option-O launch at Lagom Casa, the Rocket Giotto espresso machine launch, and Bike &amp; Brew — the Rocket Espresso x Grupetto collaboration.">
+<meta name="author" content="Klasse Production Sdn Bhd">
+<meta name="theme-color" content="#0a0a0b">
+<meta property="og:title" content="Specialty Coffee — Option-O, Rocket Giotto &amp; Bike &amp; Brew">
+<meta property="og:description" content="Three launches, one visual language: grinders, espresso machines and a cross-category collaboration between coffee and cycling.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://klasseproduction.com/case-coffee.html">
+<meta property="og:site_name" content="Klasse Productions">
+<meta property="og:locale" content="en_MY">
+<meta property="og:image" content="https://klasseproduction.com/assets/img/rocket-1.jpg">
+<meta property="og:image:alt" content="Rocket Giotto espresso machine photographed for its launch campaign">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Specialty Coffee — Option-O, Rocket Giotto &amp; Bike &amp; Brew">
+<meta name="twitter:description" content="Three launches, one visual language: grinders, espresso machines and a cross-category collaboration between coffee and cycling.">
+<meta name="twitter:image" content="https://klasseproduction.com/assets/img/rocket-1.jpg">
+<link rel="canonical" href="https://klasseproduction.com/case-coffee.html">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="image" href="assets/img/rocket-1.jpg" fetchpriority="high">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+<script>document.documentElement.classList.add('js');</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://klasseproduction.com/#organization","name":"Klasse Productions","legalName":"KLASSE PRODUCTION SDN. BHD.","url":"https://klasseproduction.com/","logo":"https://klasseproduction.com/assets/logo-white.png","image":"https://klasseproduction.com/assets/img/rocket-1.jpg","foundingDate":"2024-12-12","foundingLocation":"Kuala Lumpur, Malaysia","email":"omarbarakbah@klasseproduction.com","telephone":"+60122202015","slogan":"Elevating creativity, amplifying impact.","description":"Klasse Production Sdn Bhd is a Kuala Lumpur creative & production house established December 2024, covering event organisation, promotion & management; advertising; and motion picture, video & television programme production.","sameAs":["https://www.facebook.com/klasseproductions","https://x.com/classprod","https://www.instagram.com/klasseproductions"],"address":{"@type":"PostalAddress","streetAddress":"A2-13-1, Arcoris SOHO, Jalan Kiara","addressLocality":"Kuala Lumpur","postalCode":"50480","addressRegion":"Wilayah Persekutuan","addressCountry":"MY"}},{"@type":"LocalBusiness","@id":"https://klasseproduction.com/#localbusiness","name":"Klasse Productions","image":"https://klasseproduction.com/assets/img/rocket-1.jpg","url":"https://klasseproduction.com/case-coffee.html","email":"omarbarakbah@klasseproduction.com","telephone":"+60122202015","priceRange":"$$","foundingDate":"2024-12-12","areaServed":"MY","address":{"@type":"PostalAddress","streetAddress":"A2-13-1, Arcoris SOHO, Jalan Kiara","addressLocality":"Kuala Lumpur","postalCode":"50480","addressRegion":"Wilayah Persekutuan","addressCountry":"MY"}},{"@type":"CreativeWork","@id":"https://klasseproduction.com/case-coffee.html#work","name":"Specialty Coffee — Option-O at Lagom Casa, Rocket Giotto launch and Bike & Brew","url":"https://klasseproduction.com/case-coffee.html","image":"https://klasseproduction.com/assets/img/rocket-1.jpg","inLanguage":["en-MY","ms-MY"],"dateCreated":"2025","creator":{"@id":"https://klasseproduction.com/#organization"},"about":"Product launch content and collaboration coverage for specialty coffee brands in Kuala Lumpur.","keywords":"Option-O, Lagom Casa, Rocket Espresso, Rocket Giotto, Grupetto, Bike and Brew, specialty coffee, product launch, Kuala Lumpur"}]}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://klasseproduction.com/"},{"@type":"ListItem","position":2,"name":"Work","item":"https://klasseproduction.com/work.html"},{"@type":"ListItem","position":3,"name":"Specialty Coffee","item":"https://klasseproduction.com/case-coffee.html"}]}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#content" data-bm="Langkau ke kandungan">Skip to content</a>
+<div class="scrollbar"></div>
+<div class="grain" aria-hidden="true"></div>
+
+<!-- ===== HEADER (copy verbatim across pages; swap the .active link) ===== -->
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="nav__logo" href="index.html" aria-label="Klasse Productions home"><img src="assets/logo-white.png" alt="Klasse Productions" width="140" height="30"></a>
+    <div class="nav__right">
+      <nav class="nav__links" id="nav-links" aria-label="Main">
+        <a href="index.html" data-i18n="nav.home">Home</a>
+        <a href="about.html" data-i18n="nav.about">About</a>
+        <a href="services.html" data-i18n="nav.services">Services</a>
+        <a href="work.html" class="active" data-i18n="nav.work">Work</a>
+        <a href="process.html" data-i18n="nav.process">Process</a>
+        <a href="contact.html" data-i18n="nav.contact">Contact</a>
+        <a class="btn btn--primary nav__cta" href="contact.html" data-bm="Mari berbual <span class='arrow'>&rarr;</span>">Let's talk <span class="arrow">&rarr;</span></a>
+      </nav>
+      <div class="lang" role="group" aria-label="Language">
+        <button type="button" data-lang="en" class="on" aria-label="Switch to English" aria-pressed="true">EN</button>
+        <button type="button" data-lang="bm" aria-label="Tukar ke Bahasa Melayu" aria-pressed="false">BM</button>
+      </div>
+      <button class="nav__toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<!-- ===== CASE HERO ===== -->
+<section class="case-hero" id="content" tabindex="-1">
+  <div class="case-hero__bg" data-parallax="0.12">
+    <img src="assets/img/rocket-1.jpg" alt="Rocket Giotto espresso machine photographed for its launch campaign" fetchpriority="high" decoding="async" width="1400" height="933">
+  </div>
+  <div class="case-hero__scrim" aria-hidden="true"></div>
+  <div class="wrap">
+    <nav class="breadcrumb load-up" aria-label="Breadcrumb">
+      <a href="index.html" data-i18n="nav.home">Home</a> <span aria-hidden="true">/</span>
+      <a href="work.html" data-i18n="nav.work">Work</a> <span aria-hidden="true">/</span> <span data-bm="Kopi Khusus">Specialty Coffee</span>
+    </nav>
+    <div class="chip-row load-up">
+      <span class="chip" data-bm="Pelancaran Produk">Product Launch</span>
+      <span class="chip" data-bm="Kandungan Jenama">Brand Content</span>
+      <span class="chip" data-bm="Kolaborasi">Collaboration</span>
+    </div>
+    <h1 class="load-up d1" data-bm="Tiga pelancaran. <span class='hl'>Satu bahasa visual.</span>">Three launches. <span class="hl">One visual language.</span></h1>
+    <p class="lead load-up d2" data-bm="Kopi khusus ialah kategori yang penuh dengan orang yang tahu perbezaannya. Kandungan yang tidak menghormati peralatan akan dikesan serta-merta. Kami menggambarkan tiga pelancaran &mdash; Option-O di Lagom Casa, mesin espresso Rocket Giotto, dan Bike &amp; Brew bersama Grupetto &mdash; dengan satu peraturan: tunjukkan ketukangan.">Specialty coffee is a category full of people who know the difference. Content that does not respect the equipment gets spotted instantly. We shot three launches &mdash; Option-O at Lagom Casa, the Rocket Giotto espresso machine, and Bike &amp; Brew with Grupetto &mdash; under one rule: show the craft.</p>
+    <dl class="case-meta load-up d3">
+      <div>
+        <dt data-bm="Klien">Client</dt>
+        <dd>Option-O &middot; Lagom Casa &middot; Rocket Espresso &middot; Grupetto</dd>
+      </div>
+      <div>
+        <dt data-bm="Skop">Scope</dt>
+        <dd data-bm="Kandungan pelancaran &middot; Fotografi produk &middot; Liputan kolaborasi">Launch content &middot; Product photography &middot; Collaboration coverage</dd>
+      </div>
+      <div>
+        <dt data-bm="Tahun">Year</dt>
+        <dd>2024&ndash;2025</dd>
+      </div>
+      <div>
+        <dt data-bm="Penyerahan">Deliverables</dt>
+        <dd data-bm="Syot produk, kandungan sosial, liputan acara kolaborasi">Product stills, social content, collaboration event coverage</dd>
+      </div>
+    </dl>
+  </div>
+</section>
+
+<!-- ===== 1. OVERVIEW ===== -->
+<section class="section section--panel" id="overview">
+  <div class="wrap split split--top">
+    <div>
+      <span class="eyebrow reveal" data-bm="Ringkasan">The brief</span>
+      <h2 class="reveal" style="margin:1.1rem 0" data-bm="Penonton kopi khusus perasan segala-galanya.">A specialty coffee audience notices everything.</h2>
+      <p class="reveal" style="margin-bottom:1rem" data-bm="Pembeli dalam kategori ini membaca spesifikasi sebelum mereka membaca kapsyen. Mereka tahu bagaimana rupa burr yang betul, di mana wap sepatutnya berada, dan sama ada shot itu ditarik dengan betul. Kandungan generik &mdash; cawan di atas meja kayu, satu penapis cahaya panas &mdash; tidak memberikan sebarang kredibiliti.">Buyers in this category read the spec sheet before they read the caption. They know what a proper burr looks like, where the steam should be, and whether a shot was pulled correctly. Generic content &mdash; a cup on a wooden table, one warm filter &mdash; earns no credibility at all.</p>
+      <p class="reveal" style="margin-bottom:1rem" data-bm="Kesemua tiga projek berkongsi pendekatan yang sama: menggambarkan peralatan sebagai objek yang direka, kemudian menunjukkan ia digunakan oleh orang yang tahu apa yang mereka lakukan. Satu tanpa yang lain kelihatan sama ada dingin atau tidak meyakinkan.">All three projects share the same approach: shoot the equipment as a designed object, then show it being used by people who know what they are doing. One without the other reads as either cold or unconvincing.</p>
+      <p class="reveal muted" data-bm="Rupa yang sama merentasi ketiga-tiga pelancaran bermakna kandungan boleh berkongsi ruang pada suapan yang sama tanpa berlanggar.">The same look across all three launches means the content can share a feed without clashing.</p>
+      <div class="chip-row reveal" style="margin-top:1.8rem">
+        <span class="chip chip--ghost" data-bm="Kopi khusus">Specialty coffee</span>
+        <span class="chip chip--ghost" data-bm="Peralatan &amp; produk">Equipment &amp; product</span>
+        <span class="chip chip--ghost" data-bm="Runcit &amp; gaya hidup">Retail &amp; lifestyle</span>
+      </div>
+    </div>
+    <div class="split__media split__media--wide reveal">
+      <span class="frame" aria-hidden="true"></span>
+      <img src="assets/img/optiono-1.jpg" alt="Option-O coffee grinder photographed for the Lagom Casa launch" loading="lazy" decoding="async">
+    </div>
+  </div>
+
+  <div class="wrap" style="margin-top:4rem">
+    <div class="section-head reveal" style="margin-bottom:2rem">
+      <span class="eyebrow" data-bm="Tiga pelancaran">Three launches</span>
+      <h2 data-bm="Apa yang kami serahkan.">What we delivered.</h2>
+    </div>
+    <ol class="step-list step-list--4">
+      <li class="step-list__item reveal">
+        <h3 data-bm="Option-O di Lagom Casa">Option-O at Lagom Casa</h3>
+        <p data-bm="Kandungan pelancaran untuk pengisar Option-O di dalam ruang runcit Lagom Casa &mdash; produk, konteks dan detail.">Launch content for the Option-O grinder inside the Lagom Casa retail space &mdash; product, context and detail.</p>
+      </li>
+      <li class="step-list__item reveal">
+        <h3 data-bm="Rocket Giotto">Rocket Giotto</h3>
+        <p data-bm="Pelancaran mesin espresso: kerja logam, wap, dan syot yang cukup bersih untuk bahan runcit dan e-dagang.">The espresso machine launch: metalwork, steam, and stills clean enough for retail and e-commerce material.</p>
+      </li>
+      <li class="step-list__item reveal">
+        <h3 data-bm="Bike &amp; Brew">Bike &amp; Brew</h3>
+        <p data-bm="Liputan kolaborasi Rocket Espresso &times; Grupetto &mdash; dua kategori, satu komuniti, satu acara.">Coverage of the Rocket Espresso &times; Grupetto collaboration &mdash; two categories, one community, one event.</p>
+      </li>
+      <li class="step-list__item reveal">
+        <h3 data-bm="Satu rupa">One look</h3>
+        <p data-bm="Palet dan gredasi yang konsisten supaya ketiga-tiga pelancaran boleh dijalankan pada saluran yang sama sepanjang tahun.">A consistent palette and grade so all three launches can run on the same channels across the year.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ===== 2. OPTION-O ===== -->
+<section class="section">
+  <div class="wrap split split--center">
+    <div>
+      <span class="eyebrow reveal" data-bm="01 &middot; Option-O">01 &middot; Option-O</span>
+      <h2 class="reveal" style="margin:1.1rem 0" data-bm="Pengisar sebagai objek yang direka.">The grinder as a designed object.</h2>
+      <p class="reveal" style="margin-bottom:1rem" data-bm="Pengisar Option-O ialah keluli mesin dan geometri ketat. Ia patut digambarkan seperti perkakasan &mdash; tepi bersih, pantulan terkawal, dan cukup rapat untuk melihat pemesinan.">The Option-O grinder is machined steel and tight geometry. It deserves to be shot like hardware &mdash; clean edges, controlled reflections, and close enough to see the machining.</p>
+      <p class="reveal" style="margin-bottom:1rem" data-bm="Penggambaran berlaku di dalam Lagom Casa, jadi produk sentiasa duduk dalam konteks runcit sebenar. Itu memberikan kandungan dua kegunaan sekaligus: aset produk bersih untuk penyenaraian, dan bingkai suasana untuk sosial.">The shoot happened inside Lagom Casa, so the product always sits in a real retail context. That gives the content two uses at once: clean product assets for listings, and atmosphere frames for social.</p>
+      <p class="reveal muted" data-bm="Setiap sudut dirakam sekali dengan latar bersih dan sekali dengan latar ruang &mdash; tiada penggambaran semula diperlukan kemudian.">Every angle was captured once on a clean background and once in the room &mdash; no reshoot needed later.</p>
+      <div class="chip-row reveal" style="margin-top:1.8rem">
+        <span class="chip chip--ghost" data-bm="Syot produk">Product stills</span>
+        <span class="chip chip--ghost" data-bm="Konteks runcit">Retail context</span>
+        <span class="chip chip--ghost" data-bm="Detail makro">Macro detail</span>
+      </div>
+    </div>
+    <div class="split__stack reveal">
+      <div class="split__media">
+        <img src="assets/img/optiono-2.jpg" alt="Option-O grinder photographed on the bar inside Lagom Casa" loading="lazy" decoding="async">
+      </div>
+      <div class="split__media">
+        <img src="assets/img/optiono-3.jpg" alt="Close detail of the Option-O grinder machining and burr housing" loading="lazy" decoding="async">
+      </div>
+      <div class="split__media">
+        <img src="assets/img/optiono-b-1.jpg" alt="Option-O grinder styled within the Lagom Casa retail space" loading="lazy" decoding="async">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 3. ROCKET GIOTTO — showcase ===== -->
+<section class="section section--panel">
+  <div class="wrap">
+    <div class="section-head reveal" style="margin-bottom:2.8rem">
+      <span class="eyebrow" data-bm="02 &middot; Rocket Giotto">02 &middot; Rocket Giotto</span>
+      <h2 data-bm="Krom, wap, dan tiada tempat untuk bersembunyi.">Chrome, steam and nowhere to hide.</h2>
+      <p class="lead muted" data-bm="Mesin espresso yang digilap ialah cermin. Ia memantulkan lampu, kru, dan seluruh bilik &mdash; jadi pencahayaan mesti dibina di sekeliling pantulan dan bukannya melawannya.">A polished espresso machine is a mirror. It reflects the lights, the crew and the whole room &mdash; so the lighting has to be built around the reflections rather than fighting them.</p>
+    </div>
+    <div class="showcase reveal">
+      <div class="showcase__media">
+        <img src="assets/img/rocket-2.jpg" alt="Detail of the Rocket Giotto espresso machine during the launch shoot" loading="lazy" decoding="async" width="1400" height="787">
+      </div>
+      <div class="showcase__card">
+        <span class="chip" data-bm="Pelancaran produk">Product launch</span>
+        <h3 data-bm="Digambarkan untuk runcit dan untuk suapan.">Shot for retail and for the feed.</h3>
+        <p data-bm="Peruncit memerlukan syot bersih yang boleh dipotong; sosial memerlukan pergerakan, wap dan tangan. Kami merakam kedua-duanya dalam satu persediaan supaya jenama tidak perlu memilih antara kegunaan.">Retailers need clean, cut-out-ready stills; social needs movement, steam and hands. We capture both in one set-up so the brand does not have to choose between uses.</p>
+        <a class="btn btn--ghost" style="margin-top:1.4rem" href="services.html" data-bm="Perkhidmatan produk kami <span class='arrow'>&rarr;</span>">Our product services <span class="arrow">&rarr;</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 4. BIKE & BREW ===== -->
+<section class="section">
+  <div class="wrap">
+    <div class="section-head reveal" style="margin-bottom:2.8rem">
+      <span class="eyebrow" data-bm="03 &middot; Bike &amp; Brew">03 &middot; Bike &amp; Brew</span>
+      <h2 data-bm="Rocket Espresso &times; Grupetto.">Rocket Espresso &times; Grupetto.</h2>
+      <p class="lead muted" data-bm="Basikal dan espresso berkongsi penonton yang sama: orang yang mengambil berat tentang peralatan dan sanggup bangun awal untuknya. Bike &amp; Brew ialah kolaborasi yang mengumpulkan kedua-dua komuniti itu di satu tempat.">Bikes and espresso share the same audience: people who care about equipment and will get up early for it. Bike &amp; Brew is the collaboration that put both communities in one place.</p>
+    </div>
+    <div class="showcase showcase--left reveal">
+      <div class="showcase__media">
+        <img src="assets/img/bikebrew-1.jpg" alt="Bike and Brew collaboration event between Rocket Espresso and Grupetto" loading="lazy" decoding="async" width="1400" height="787">
+      </div>
+      <div class="showcase__card">
+        <span class="chip" data-bm="Liputan kolaborasi">Collaboration coverage</span>
+        <h3 data-bm="Dua kategori, satu komuniti.">Two categories, one community.</h3>
+        <p data-bm="Liputan kolaborasi bermakna kedua-dua jenama mesti keluar dengan aset yang mereka boleh gunakan &mdash; bukan hanya satu. Kami merancang senarai syot supaya Rocket mendapat kandungan espresso mereka dan Grupetto mendapat kandungan berbasikal mereka, daripada acara yang sama.">Collaboration coverage means both brands have to leave with assets they can use &mdash; not just one of them. We plan the shot list so Rocket gets its espresso content and Grupetto gets its cycling content, out of the same event.</p>
+      </div>
+    </div>
+    <div class="mosaic" style="margin-top:3rem">
+      <button type="button" class="mosaic__cell is-tall reveal" data-lightbox="coffee" data-title="Bike &amp; Brew — the ride" data-title-bm="Bike &amp; Brew — perjalanan" data-blurb="Cycling content captured for Grupetto during the collaboration." data-blurb-bm="Kandungan berbasikal dirakam untuk Grupetto semasa kolaborasi.">
+        <img src="assets/img/bikebrew-2.jpg" alt="Cyclists gathering at the Bike and Brew collaboration event" loading="lazy" decoding="async">
+        <span class="mosaic__cap" data-bm="Bike &amp; Brew &middot; Perjalanan">Bike &amp; Brew &middot; The ride</span>
+      </button>
+      <button type="button" class="mosaic__cell reveal" data-lightbox="coffee" data-title="Bike &amp; Brew — the bar" data-title-bm="Bike &amp; Brew — kaunter" data-blurb="Espresso service running through the collaboration event." data-blurb-bm="Perkhidmatan espresso sepanjang acara kolaborasi.">
+        <img src="assets/img/bikebrew-3.jpg" alt="Espresso being served at the Bike and Brew event" loading="lazy" decoding="async">
+        <span class="mosaic__cap" data-bm="Bike &amp; Brew &middot; Kaunter">Bike &amp; Brew &middot; The bar</span>
+      </button>
+      <button type="button" class="mosaic__cell reveal" data-lightbox="coffee" data-title="Bike &amp; Brew — the crowd" data-title-bm="Bike &amp; Brew — komuniti" data-blurb="Two communities meeting over equipment they both care about." data-blurb-bm="Dua komuniti bertemu atas peralatan yang mereka berdua ambil berat.">
+        <img src="assets/img/bikebrew-b-1.jpg" alt="Guests and cyclists at the Bike and Brew collaboration" loading="lazy" decoding="async">
+        <span class="mosaic__cap" data-bm="Bike &amp; Brew &middot; Komuniti">Bike &amp; Brew &middot; The crowd</span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 5. STAT BAND ===== -->
+<section class="section section--panel section--tight">
+  <div class="wrap">
+    <div class="section-head section-head--center reveal" style="margin-bottom:2.6rem">
+      <span class="eyebrow" data-i18n="eyebrow.numbers">By the numbers</span>
+      <h2 data-bm="Skop pada satu pandangan.">The scope at a glance.</h2>
+    </div>
+    <div class="stat-band">
+      <div class="stat-band__item">
+        <div class="stat-band__n"><span data-count="3">3</span></div>
+        <div class="stat-band__l" data-bm="Pelancaran diliputi">Launches covered</div>
+      </div>
+      <div class="stat-band__item">
+        <div class="stat-band__n"><span data-count="4">4</span></div>
+        <div class="stat-band__l" data-bm="Jenama terlibat">Brands involved</div>
+      </div>
+      <div class="stat-band__item">
+        <div class="stat-band__n"><span data-count="2">2</span></div>
+        <div class="stat-band__l" data-bm="Kategori disatukan">Categories brought together</div>
+      </div>
+      <div class="stat-band__item">
+        <div class="stat-band__n"><span data-count="1">1</span></div>
+        <div class="stat-band__l" data-bm="Bahasa visual dikongsi">Shared visual language</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 6. GALLERY ===== -->
+<section class="section">
+  <div class="wrap">
+    <div class="section-head reveal" style="margin-bottom:2.4rem">
+      <span class="eyebrow" data-bm="Dari set">From the set</span>
+      <h2 data-bm="Bingkai daripada tiga pelancaran.">Frames from the three launches.</h2>
+      <p class="lead muted" data-bm="Klik mana-mana bingkai untuk melihatnya lebih besar.">Tap any frame to see it larger.</p>
+    </div>
+    <div class="gallery-grid gallery-grid--3">
+      <button type="button" class="gallery-grid__thumb reveal" data-lightbox="coffee" data-title="Option-O — in the room" data-title-bm="Option-O — dalam ruang" data-blurb="The grinder photographed in the Lagom Casa retail space." data-blurb-bm="Pengisar dirakam di dalam ruang runcit Lagom Casa.">
+        <img src="assets/img/optiono-b-2.jpg" alt="Option-O grinder in use inside the Lagom Casa space" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="gallery-grid__thumb reveal" data-lightbox="coffee" data-title="Rocket Giotto — the pour" data-title-bm="Rocket Giotto — tuangan" data-blurb="Espresso extraction captured for the launch content." data-blurb-bm="Pengekstrakan espresso dirakam untuk kandungan pelancaran.">
+        <img src="assets/img/rocket-3.jpg" alt="Espresso extraction from the Rocket Giotto machine" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="gallery-grid__thumb reveal" data-lightbox="coffee" data-title="Bike &amp; Brew — the collaboration" data-title-bm="Bike &amp; Brew — kolaborasi" data-blurb="Rocket Espresso and Grupetto content from the same event." data-blurb-bm="Kandungan Rocket Espresso dan Grupetto daripada acara yang sama.">
+        <img src="assets/img/bikebrew-b-2.jpg" alt="Bikes and espresso equipment side by side at the Bike and Brew event" loading="lazy" decoding="async">
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 7. BRANDS IN THIS CASE ===== -->
+<section class="section section--panel section--tight">
+  <div class="wrap">
+    <div class="section-head section-head--center reveal" style="margin-bottom:2.4rem">
+      <span class="eyebrow" data-bm="Jenama dalam kes ini">Brands in this case</span>
+      <h2 data-bm="Empat jenama, satu kategori.">Four brands, one category.</h2>
+    </div>
+    <div class="logo-wall reveal">
+      <div class="logo-wall__item logo-wall__item--text">Option-O</div>
+      <div class="logo-wall__item logo-wall__item--text">Lagom Casa</div>
+      <div class="logo-wall__item logo-wall__item--text">Rocket Espresso</div>
+      <div class="logo-wall__item logo-wall__item--text">Grupetto</div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 8. QUOTE BAND ===== -->
+<section class="quote-band">
+  <div class="quote-band__bg" data-parallax="0.1">
+    <img src="assets/img/bikebrew-1.jpg" alt="" aria-hidden="true" loading="lazy" decoding="async">
+  </div>
+  <div class="wrap quote-band__grid">
+    <div class="reveal">
+      <span class="quote-band__mark" aria-hidden="true">&ldquo;</span>
+      <blockquote data-bm="Kandungan produk bukan tentang produk. Ia tentang <span class='hl'>mahu menggunakannya.</span>">Product content is not about the product. It is about <span class="hl">wanting to use it.</span></blockquote>
+      <div class="quote-band__by">&mdash; Klasse Productions</div>
+    </div>
+    <div class="feature-row">
+      <div class="feature-row__item reveal">
+        <span class="n">01</span>
+        <h3 data-bm="Peralatan digambarkan sebagai perkakasan">Equipment shot like hardware</h3>
+        <span class="arrow" aria-hidden="true">&rarr;</span>
+      </div>
+      <div class="feature-row__item reveal">
+        <span class="n">02</span>
+        <h3 data-bm="Konteks runcit sebenar">Real retail context</h3>
+        <span class="arrow" aria-hidden="true">&rarr;</span>
+      </div>
+      <div class="feature-row__item reveal">
+        <span class="n">03</span>
+        <h3 data-bm="Aset untuk kedua-dua rakan kolaborasi">Assets for both collaboration partners</h3>
+        <span class="arrow" aria-hidden="true">&rarr;</span>
+      </div>
+      <div class="feature-row__item reveal">
+        <span class="n">04</span>
+        <h3 data-bm="Satu gredasi merentasi tiga pelancaran">One grade across three launches</h3>
+        <span class="arrow" aria-hidden="true">&rarr;</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== NEXT CASE ===== -->
+<a class="next-case" href="case-prubsn.html">
+  <div class="next-case__bg"><img src="assets/img/jomborak-1.jpg" alt="" aria-hidden="true" loading="lazy" decoding="async"></div>
+  <div class="wrap">
+    <span class="next-case__k" data-i18n="ui.nextCase">Next case</span>
+    <h2>PruBSN</h2>
+    <span class="next-case__go" data-i18n="ui.viewCase">View case study <span class="arrow">&rarr;</span></span>
+  </div>
+</a>
+
+<!-- ===== FOOTER (copy verbatim across pages) ===== -->
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-top footer-top--4">
+      <div class="footer-brand">
+        <img src="assets/logo-white.png" alt="Klasse Productions" width="150" height="32" loading="lazy" decoding="async">
+        <p data-i18n="foot.tagline">A creative &amp; production house specialising in content, digital, and brand storytelling. Transforming businesses through innovative strategies that drive real, measurable results.</p>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="foot.explore">Explore</h4>
+        <ul>
+          <li><a href="index.html" data-i18n="foot.home">Home</a></li>
+          <li><a href="about.html" data-i18n="foot.about">About Us</a></li>
+          <li><a href="services.html" data-i18n="foot.services">Services</a></li>
+          <li><a href="work.html" data-i18n="foot.work">Work</a></li>
+          <li><a href="process.html" data-i18n="foot.process">Process</a></li>
+          <li><a href="clients.html" data-i18n="foot.clients">Clients</a></li>
+          <li><a href="contact.html" data-i18n="foot.contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="foot.cases">Case Studies</h4>
+        <ul>
+          <li><a href="case-prubsn.html">PruBSN</a></li>
+          <li><a href="case-podcasts.html" data-bm="Podcast">Podcasts</a></li>
+          <li><a href="case-anaaka.html">Anaaka</a></li>
+          <li><a href="case-aujardin.html">Au Jardin</a></li>
+          <li><a href="case-coffee.html" data-bm="Kopi Khusus">Specialty Coffee</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="foot.office">Office</h4>
+        <p>Klasse Production Sdn Bhd<br>A2-13-1, Arcoris SOHO, Jalan Kiara<br>50480 Kuala Lumpur<br>Wilayah Persekutuan, Malaysia</p>
+        <p style="margin-top:1rem"><a href="mailto:omarbarakbah@klasseproduction.com">omarbarakbah@klasseproduction.com</a><br><a href="tel:+60122202015">+60 12-220 2015</a><br><a href="https://wa.me/60122202015" target="_blank" rel="noopener">WhatsApp</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span id="year">2025</span> Klasse Production Sdn Bhd 202401052810 (1598653-T). <span data-i18n="foot.rights">All rights reserved.</span></span>
+      <div class="social">
+        <a href="https://www.facebook.com/klasseproductions" aria-label="Klasse Productions on Facebook" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 21v-8h2.69l.4-3.12h-3.09V7.9c0-.9.25-1.52 1.55-1.52h1.65V3.58A22 22 0 0 0 14.3 3.45c-2.44 0-4.11 1.49-4.11 4.22v2.21H7.5V13h2.69v8h3.31Z"/></svg></a>
+        <a href="https://x.com/classprod" aria-label="Klasse Productions on X (Twitter)" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.53 3H20.5l-6.48 7.4L21.6 21h-5.97l-4.68-6.12L5.6 21H2.63l6.93-7.92L2.4 3h6.12l4.23 5.6L17.53 3Zm-1.05 16.2h1.65L7.6 4.7H5.83l10.65 14.5Z"/></svg></a>
+        <!-- TODO: confirm IG handle -->
+        <a href="https://www.instagram.com/klasseproductions" aria-label="Klasse Productions on Instagram" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.2c3.2 0 3.6 0 4.9.07 1.2.05 1.8.25 2.2.42.6.2 1 .5 1.4.9.4.4.7.8.9 1.4.17.4.37 1 .42 2.2.06 1.3.07 1.7.07 4.9s0 3.6-.07 4.9c-.05 1.2-.25 1.8-.42 2.2a3.8 3.8 0 0 1-.9 1.4c-.4.4-.8.7-1.4.9-.4.17-1 .37-2.2.42-1.3.06-1.7.07-4.9.07s-3.6 0-4.9-.07c-1.2-.05-1.8-.25-2.2-.42a3.8 3.8 0 0 1-1.4-.9 3.8 3.8 0 0 1-.9-1.4c-.17-.4-.37-1-.42-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.07-4.9c.05-1.2.25-1.8.42-2.2.2-.6.5-1 .9-1.4.4-.4.8-.7 1.4-.9.4-.17 1-.37 2.2-.42C8.4 2.2 8.8 2.2 12 2.2Zm0 1.8c-3.1 0-3.5 0-4.7.07-.9.04-1.4.2-1.7.32-.43.17-.74.37-1.06.69-.32.32-.52.63-.69 1.06-.12.3-.28.8-.32 1.7C3.46 9.1 3.45 9.5 3.45 12s0 2.9.07 4.1c.04.9.2 1.4.32 1.7.17.43.37.74.69 1.06.32.32.63.52 1.06.69.3.12.8.28 1.7.32 1.2.06 1.6.07 4.7.07s3.5 0 4.7-.07c.9-.04 1.4-.2 1.7-.32.43-.17.74-.37 1.06-.69.32-.32.52-.63.69-1.06.12-.3.28-.8.32-1.7.06-1.2.07-1.6.07-4.1s0-2.9-.07-4.1c-.04-.9-.2-1.4-.32-1.7a2.9 2.9 0 0 0-.69-1.06 2.9 2.9 0 0 0-1.06-.69c-.3-.12-.8-.28-1.7-.32C15.5 4 15.1 4 12 4Zm0 3.05A4.95 4.95 0 1 1 7.05 12 4.95 4.95 0 0 1 12 7.05Zm0 8.16A3.21 3.21 0 1 0 8.79 12 3.21 3.21 0 0 0 12 15.21Zm6.3-8.36a1.16 1.16 0 1 1-1.15-1.15 1.16 1.16 0 0 1 1.15 1.15Z"/></svg></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/main.js"></script>
+</body>
+</html>

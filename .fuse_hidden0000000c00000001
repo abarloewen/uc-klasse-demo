@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Work — Portfolio of Klasse Productions, Kuala Lumpur</title>
+<meta name="description" content="The Klasse Productions portfolio: PruBSN's Jom Borak live podcast, PruBSN Stars social, MDRT Buddies 2025 and YEBEL 2025, Kata Kita, SpaceDollah, Flow State, Anaaka skincare, Au Jardin and the specialty coffee launches — all shot and produced in Kuala Lumpur.">
+<meta name="author" content="Klasse Production Sdn Bhd">
+<meta name="theme-color" content="#0a0a0b">
+<meta property="og:title" content="Work — Klasse Productions Portfolio">
+<meta property="og:description" content="Live podcasts, corporate events, commercial films, brand content and product launches — real projects from a Kuala Lumpur creative &amp; production house.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://klasseproduction.com/work.html">
+<meta property="og:site_name" content="Klasse Productions">
+<meta property="og:locale" content="en_MY">
+<meta property="og:image" content="https://klasseproduction.com/assets/img/flowstate-1.jpg">
+<meta property="og:image:alt" content="Flow State live event stage produced and covered by Klasse Productions">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Work — Klasse Productions Portfolio">
+<meta name="twitter:description" content="Live podcasts, corporate events, commercial films, brand content and product launches — real projects from a Kuala Lumpur creative &amp; production house.">
+<meta name="twitter:image" content="https://klasseproduction.com/assets/img/flowstate-1.jpg">
+<link rel="canonical" href="https://klasseproduction.com/work.html">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="image" href="assets/img/flowstate-1.jpg" fetchpriority="high">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+<script>document.documentElement.classList.add('js');</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://klasseproduction.com/#organization","name":"Klasse Productions","legalName":"KLASSE PRODUCTION SDN. BHD.","url":"https://klasseproduction.com/","logo":"https://klasseproduction.com/assets/logo-white.png","image":"https://klasseproduction.com/assets/img/flowstate-1.jpg","foundingDate":"2024-12-12","foundingLocation":"Kuala Lumpur, Malaysia","email":"omarbarakbah@klasseproduction.com","telephone":"+60122202015","slogan":"Elevating creativity, amplifying impact.","description":"Klasse Production Sdn Bhd is a Kuala Lumpur creative & production house established December 2024, covering event organisation, promotion & management; advertising; and motion picture, video & television programme production.","sameAs":["https://www.facebook.com/klasseproductions","https://x.com/classprod","https://www.instagram.com/klasseproductions"],"address":{"@type":"PostalAddress","streetAddress":"A2-13-1, Arcoris SOHO, Jalan Kiara","addressLocality":"Kuala Lumpur","postalCode":"50480","addressRegion":"Wilayah Persekutuan","addressCountry":"MY"}},{"@type":"LocalBusiness","@id":"https://klasseproduction.com/#localbusiness","name":"Klasse Productions","image":"https://klasseproduction.com/assets/img/flowstate-1.jpg","url":"https://klasseproduction.com/work.html","email":"omarbarakbah@klasseproduction.com","telephone":"+60122202015","priceRange":"$$","foundingDate":"2024-12-12","areaServed":"MY","sameAs":["https://www.facebook.com/klasseproductions","https://x.com/classprod","https://www.instagram.com/klasseproductions"],"address":{"@type":"PostalAddress","streetAddress":"A2-13-1, Arcoris SOHO, Jalan Kiara","addressLocality":"Kuala Lumpur","postalCode":"50480","addressRegion":"Wilayah Persekutuan","addressCountry":"MY"}},{"@type":"CollectionPage","@id":"https://klasseproduction.com/work.html#collection","url":"https://klasseproduction.com/work.html","name":"Work — Klasse Productions Portfolio","inLanguage":["en-MY","ms-MY"],"isPartOf":{"@id":"https://klasseproduction.com/#organization"},"about":{"@id":"https://klasseproduction.com/#organization"}}]}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://klasseproduction.com/"},{"@type":"ListItem","position":2,"name":"Work","item":"https://klasseproduction.com/work.html"}]}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#content" data-bm="Langkau ke kandungan">Skip to content</a>
+<div class="scrollbar"></div>
+<div class="grain" aria-hidden="true"></div>
+
+<!-- ===== HEADER (copy verbatim across pages; swap the .active link) ===== -->
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="nav__logo" href="index.html" aria-label="Klasse Productions home"><img src="assets/logo-white.png" alt="Klasse Productions" width="140" height="30"></a>
+    <div class="nav__right">
+      <nav class="nav__links" id="nav-links" aria-label="Main">
+        <a href="index.html" data-i18n="nav.home">Home</a>
+        <a href="about.html" data-i18n="nav.about">About</a>
+        <a href="services.html" data-i18n="nav.services">Services</a>
+        <a href="work.html" class="active" data-i18n="nav.work">Work</a>
+        <a href="process.html" data-i18n="nav.process">Process</a>
+        <a href="contact.html" data-i18n="nav.contact">Contact</a>
+        <a class="btn btn--primary nav__cta" href="contact.html" data-bm="Mari berbual <span class='arrow'>&rarr;</span>">Let's talk <span class="arrow">&rarr;</span></a>
+      </nav>
+      <div class="lang" role="group" aria-label="Language">
+        <button type="button" data-lang="en" class="on" aria-label="Switch to English" aria-pressed="true">EN</button>
+        <button type="button" data-lang="bm" aria-label="Tukar ke Bahasa Melayu" aria-pressed="false">BM</button>
+      </div>
+      <button class="nav__toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<section class="hero-media hero-media--short" id="content" tabindex="-1">
+  <div class="hero-media__bg" data-parallax="0.12">
+    <img src="assets/img/flowstate-1.jpg" alt="Flow State live event stage lit for a full production and broadcast capture by Klasse Productions" fetchpriority="high" decoding="async" width="1400" height="787">
+  </div>
+  <div class="hero-media__scrim" aria-hidden="true"></div>
+  <div class="wrap hero-media__body">
+    <nav class="breadcrumb load-up" aria-label="Breadcrumb">
+      <a href="index.html" data-i18n="nav.home">Home</a> <span aria-hidden="true">/</span> <span data-i18n="nav.work">Work</span>
+    </nav>
+    <span class="eyebrow load-up" data-i18n="eyebrow.portfolio">Project portfolio</span>
+    <h1 class="load-up d1" data-bm="Kerja sebenar. Set sebenar. <span class='hl'>Jenama sebenar.</span>">Real work. Real sets. <span class="hl">Real brands.</span></h1>
+    <p class="lead load-up d2" data-bm="Setiap bingkai di halaman ini datang daripada produksi Klasse yang sebenar — podcast langsung bulanan, acara korporat, filem komersial, kandungan jenama fine-dining, dan pelancaran produk kopi khusus.">Every frame on this page comes from an actual Klasse production — monthly live podcasts, corporate events, commercial films, fine-dining brand content and specialty coffee launches.</p>
+    <div class="hero-media__meta load-up d3">
+      <span data-bm="16 penyertaan portfolio">16 portfolio entries</span>
+      <span data-bm="5 kajian kes">5 case studies</span>
+      <span data-bm="2024&ndash;2025">2024&ndash;2025</span>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CLIENT MARQUEE ===== -->
+<div class="logo-marquee" aria-label="Brands we have produced for">
+  <div class="logo-marquee__track">
+    <img src="assets/logos/prudential-bsn-takaful.png" alt="Prudential BSN Takaful" loading="lazy" decoding="async">
+    <img src="assets/logos/prubsn-stars.png" alt="PruBSN Stars" loading="lazy" decoding="async">
+    <img src="assets/logos/jom-borak.png" alt="Jom Borak" loading="lazy" decoding="async">
+    <img src="assets/logos/kata-kita.png" alt="Kata Kita Podcast" loading="lazy" decoding="async">
+    <img src="assets/logos/spacedollah.png" alt="SpaceDollah" loading="lazy" decoding="async">
+    <img src="assets/logos/flow-state.png" alt="Flow State" loading="lazy" decoding="async">
+    <img src="assets/logos/anaaka.png" alt="Anaaka" loading="lazy" decoding="async">
+    <img src="assets/logos/carsome.png" alt="Carsome" loading="lazy" decoding="async">
+    <img src="assets/logos/jentayu.png" alt="Jentayu" loading="lazy" decoding="async">
+    <img src="assets/logos/larenme.png" alt="Larenme" loading="lazy" decoding="async">
+    <img src="assets/logos/renewal.png" alt="Renewal" loading="lazy" decoding="async">
+    <img src="assets/logos/ayubee.png" alt="Ayubee" loading="lazy" decoding="async">
+    <img src="assets/logos/estika.png" alt="Estika" loading="lazy" decoding="async">
+    <img src="assets/logos/prudential-bsn-takaful.png" alt="" aria-hidden="true" loading="lazy" decoding="async">
+    <img src="assets/logos/prubsn-stars.png" alt="" aria-hidden="true" loading="lazy" decoding="async">
+    <img src="assets/logos/jom-borak.png" alt="" aria-hidden="true" loading="lazy" decoding="async">
+    <img src="assets/logos/kata-kita.png" alt="" aria-hidden="true" loading="lazy" decoding="async">
+    <img src="assets/logos/spacedollah.png" alt="" aria-hidden="true" loading="lazy" decoding="async">
+    <img src="assets/logos/flow-state.png" alt="" aria-hidden="true" loading="lazy" decoding="async">
+    <img src="assets/logos/anaaka.png" alt="" aria-hidden="true" loading="lazy" decoding="async">
+    <img src="assets/logos/carsome.png" alt="" aria-hidden="true" loading="lazy" decoding="async">
+    <img src="assets/logos/jentayu.png" alt="" aria-hidden="true" loading="lazy" decoding="async">
+    <img src="assets/logos/larenme.png" alt="" aria-hidden="true" loading="lazy" decoding="async">
+    <img src="assets/logos/renewal.png" alt="" aria-hidden="true" loading="lazy" decoding="async">
+    <img src="assets/logos/ayubee.png" alt="" aria-hidden="true" loading="lazy" decoding="async">
+    <img src="assets/logos/estika.png" alt="" aria-hidden="true" loading="lazy" decoding="async">
+  </div>
+</div>
+
+<!-- ===== 1. CASE STUDIES (case cards) ===== -->
+<section class="section" id="cases">
+  <div class="wrap">
+    <div class="section-head section-head--row reveal">
+      <div class="section-head__text">
+        <span class="eyebrow" data-i18n="eyebrow.selected">Selected work</span>
+        <h2 data-bm="Lima kajian kes. Satu standard produksi.">Five case studies. One production standard.</h2>
+        <p class="lead muted" data-bm="Setiap kes menerangkan cabaran, pendekatan kami, dan apa yang kami serahkan — dengan gambar sebenar daripada set.">Each case walks through the brief, our approach and exactly what we handed over — with real frames from the set.</p>
+      </div>
+      <a class="btn btn--ghost" href="contact.html" data-bm="Mulakan projek <span class='arrow'>&rarr;</span>">Start a project <span class="arrow">&rarr;</span></a>
+    </div>
+
+    <div class="grid grid-3" style="margin-top:3rem">
+
+      <article class="case-card case-card--wide reveal">
+        <div class="case-card__media">
+          <img src="assets/img/jomborak-1.jpg" alt="Two hosts recording an episode of the PruBSN Jom Borak live podcast in studio" loading="lazy" decoding="async">
+          <span class="chip case-card__chip" data-bm="Klien Utama">Anchor client</span>
+        </div>
+        <div class="case-card__body">
+          <h3 class="case-card__title">PruBSN</h3>
+          <p data-bm="Podcast langsung Jom Borak, media sosial PruBSN Stars, MDRT Buddies 2025, YEBEL 2025, kempen pengaktifan ejen dan Health360.">The Jom Borak live podcast, PruBSN Stars social media, MDRT Buddies 2025, YEBEL 2025, agent activation and Health360.</p>
+          <span class="case-card__more" data-i18n="ui.viewCase">View case study <span class="arrow">&rarr;</span></span>
+        </div>
+        <a class="case-card__link" href="case-prubsn.html"><span class="sr-only">PruBSN case study</span></a>
+      </article>
+
+      <article class="case-card case-card--tall reveal">
+        <div class="case-card__media">
+          <img src="assets/img/katakita-1.jpg" alt="The Kata Kita podcast set with hosts, microphones and studio lighting" loading="lazy" decoding="async">
+          <span class="chip case-card__chip" data-bm="Podcast &amp; Kreator">Podcasts &amp; Creators</span>
+        </div>
+        <div class="case-card__body">
+          <h3 class="case-card__title" data-bm="Kata Kita &middot; SpaceDollah &middot; Flow State">Kata Kita &middot; SpaceDollah &middot; Flow State</h3>
+          <p data-bm="Podcast mingguan dengan komuniti ~39K, kandungan digital merentasi empat platform, dan produksi podcast langsung di acara.">A weekly podcast with a ~39K community, digital content across four platforms, and live podcast production at events.</p>
+          <span class="case-card__more" data-i18n="ui.viewCase">View case study <span class="arrow">&rarr;</span></span>
+        </div>
+        <a class="case-card__link" href="case-podcasts.html"><span class="sr-only">Podcasts and creators case study</span></a>
+      </article>
+
+      <article class="case-card case-card--tall reveal">
+        <div class="case-card__media">
+          <img src="assets/img/anaaka-b-1.jpg" alt="Model holding an Anaaka premium skincare product during a commercial shoot" loading="lazy" decoding="async">
+          <span class="chip case-card__chip" data-bm="Komersial">Commercial</span>
+        </div>
+        <div class="case-card__body">
+          <h3 class="case-card__title">Anaaka</h3>
+          <p data-bm="Penggambaran komersial dan produk untuk jenama penjagaan kulit premium Halal dari Eropah — lokasi luar dan meja produk.">Commercial and product shoot for a European Halal premium skincare brand — outdoor location and product table.</p>
+          <span class="case-card__more" data-i18n="ui.viewCase">View case study <span class="arrow">&rarr;</span></span>
+        </div>
+        <a class="case-card__link" href="case-anaaka.html"><span class="sr-only">Anaaka case study</span></a>
+      </article>
+
+      <article class="case-card reveal">
+        <div class="case-card__media">
+          <img src="assets/img/aujardin-b-1.jpg" alt="Plated dish photographed at Au Jardin, a one Michelin star restaurant" loading="lazy" decoding="async">
+          <span class="chip case-card__chip" data-bm="Kandungan Jenama">Brand Content</span>
+        </div>
+        <div class="case-card__body">
+          <h3 class="case-card__title">Au Jardin</h3>
+          <p data-bm="Kandungan jenama fine-dining untuk restoran satu-bintang Michelin — ruang, hidangan dan ketukangan.">Fine-dining brand content for a one-Michelin-star restaurant — the room, the plate and the craft.</p>
+          <span class="case-card__more" data-i18n="ui.viewCase">View case study <span class="arrow">&rarr;</span></span>
+        </div>
+        <a class="case-card__link" href="case-aujardin.html"><span class="sr-only">Au Jardin case study</span></a>
+      </article>
+
+      <article class="case-card case-card--wide reveal">
+        <div class="case-card__media">
+          <img src="assets/img/rocket-1.jpg" alt="Rocket Giotto espresso machine photographed for its launch campaign" loading="lazy" decoding="async">
+          <span class="chip case-card__chip" data-bm="Produk &amp; Pelancaran">Product &amp; Launch</span>
+        </div>
+        <div class="case-card__body">
+          <h3 class="case-card__title" data-bm="Kopi Khusus">Specialty Coffee</h3>
+          <p data-bm="Tiga pelancaran, satu bahasa visual: Option-O di Lagom Casa, mesin espresso Rocket Giotto, dan Bike &amp; Brew bersama Grupetto.">Three launches, one visual language: Option-O at Lagom Casa, the Rocket Giotto espresso machine, and Bike &amp; Brew with Grupetto.</p>
+          <span class="case-card__more" data-i18n="ui.viewCase">View case study <span class="arrow">&rarr;</span></span>
+        </div>
+        <a class="case-card__link" href="case-coffee.html"><span class="sr-only">Specialty coffee case study</span></a>
+      </article>
+
+      <article class="case-card reveal">
+        <div class="case-card__media">
+          <img src="assets/img/mdrt-1.jpg" alt="Ballroom set up for the PruBSN MDRT Buddies 2025 corporate event" loading="lazy" decoding="async">
+          <span class="chip case-card__chip chip--ghost" data-bm="Klien">Clients</span>
+        </div>
+        <div class="case-card__body">
+          <h3 class="case-card__title" data-bm="Klien &amp; rakan kongsi">Clients &amp; partners</h3>
+          <p data-bm="Prudential BSN Takaful, Kata Kita, SpaceDollah, Flow State, Anaaka, Au Jardin, Carsome, Jentayu, Larenme, Renewal, Ayubee, Estika.">Prudential BSN Takaful, Kata Kita, SpaceDollah, Flow State, Anaaka, Au Jardin, Carsome, Jentayu, Larenme, Renewal, Ayubee, Estika.</p>
+          <span class="case-card__more" data-bm="Lihat semua klien <span class='arrow'>&rarr;</span>">See all clients <span class="arrow">&rarr;</span></span>
+        </div>
+        <a class="case-card__link" href="clients.html"><span class="sr-only">All clients and partners</span></a>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== 2. SHOWCASE — the anchor partnership ===== -->
+<section class="section section--panel">
+  <div class="wrap">
+    <div class="showcase reveal">
+      <div class="showcase__media">
+        <img src="assets/img/yebel-1.jpg" alt="PruBSN YEBEL 2025 corporate event produced and captured by Klasse Productions" loading="lazy" decoding="async" width="1400" height="787">
+      </div>
+      <div class="showcase__card">
+        <span class="chip" data-bm="Rakan kongsi berterusan">Ongoing partnership</span>
+        <h3 data-bm="Empat aliran kerja untuk satu jenama takaful.">Four workstreams for one takaful brand.</h3>
+        <p data-bm="Untuk Prudential BSN Takaful kami menjalankan podcast langsung bulanan, media sosial sentiasa aktif untuk PruBSN Stars, dua acara agensi utama, dan filem korporat serta kesedaran — semuanya dari satu arah kreatif.">For Prudential BSN Takaful we run a monthly live podcast, always-on social for PruBSN Stars, two flagship agency events, and corporate plus awareness films — all from a single creative direction.</p>
+        <a class="btn btn--ghost" style="margin-top:1.4rem" href="case-prubsn.html" data-i18n="ui.viewCase">View case study <span class="arrow">&rarr;</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 3. EVERY PROJECT — filterable grid ===== -->
+<section class="section" id="all-projects">
+  <div class="wrap">
+    <div class="section-head section-head--center reveal">
+      <span class="eyebrow" data-bm="Setiap projek">Every project</span>
+      <h2 data-bm="Portfolio penuh, ditapis mengikut kategori.">The full portfolio, filtered by category.</h2>
+      <p class="lead muted" data-bm="Pilih kategori untuk menapis. Setiap kad membuka kajian kes penuh projek itu.">Pick a category to filter. Every tile opens the full case study for that project.</p>
+    </div>
+
+    <div class="filters reveal" role="group" aria-label="Filter portfolio by category">
+      <button class="filter on" type="button" data-filter="all" data-bm="Semua">All</button>
+      <button class="filter" type="button" data-filter="podcast" data-bm="Podcast">Podcast</button>
+      <button class="filter" type="button" data-filter="social" data-bm="Media Sosial">Social</button>
+      <button class="filter" type="button" data-filter="content" data-bm="Kandungan">Content</button>
+      <button class="filter" type="button" data-filter="event" data-bm="Acara">Events</button>
+      <button class="filter" type="button" data-filter="video" data-bm="Video Korporat">Corporate Video</button>
+      <button class="filter" type="button" data-filter="commercial" data-bm="Komersial">Commercial</button>
+      <button class="filter" type="button" data-filter="brand" data-bm="Kandungan Jenama">Brand</button>
+      <button class="filter" type="button" data-filter="coffee" data-bm="Kopi Khusus">Coffee</button>
+    </div>
+
+    <div class="gallery">
+
+      <article class="gitem wide reveal" data-cat="podcast">
+        <img src="assets/img/jomborak-2.jpg" alt="Jom Borak live podcast recording with hosts and guests on the PruBSN set" loading="lazy" decoding="async">
+        <div class="gitem__overlay">
+          <span class="gitem__cat" data-bm="Podcast Langsung">Live Podcast</span>
+          <span class="gitem__title">PruBSN &mdash; Jom Borak</span>
+          <span class="gitem__blurb" data-bm="Podcast langsung bulanan dengan edisi kewangan dan kesihatan jantung.">A monthly live podcast running financial and heart-health editions.</span>
+        </div>
+        <a class="case-card__link" href="case-prubsn.html"><span class="sr-only">PruBSN Jom Borak &mdash; view case study</span></a>
+      </article>
+
+      <article class="gitem reveal" data-cat="podcast">
+        <img src="assets/img/jomborak-heart-1.jpg" alt="Heart Health edition of the Jom Borak live podcast in production" loading="lazy" decoding="async">
+        <div class="gitem__overlay">
+          <span class="gitem__cat" data-bm="Podcast Langsung">Live Podcast</span>
+          <span class="gitem__title" data-bm="Jom Borak &mdash; Edisi Kesihatan Jantung">Jom Borak &mdash; Heart Health</span>
+          <span class="gitem__blurb" data-bm="Edisi khas yang menerangkan perlindungan kesihatan dalam bahasa harian.">A special edition that explains health protection in everyday language.</span>
+        </div>
+        <a class="case-card__link" href="case-prubsn.html"><span class="sr-only">Jom Borak Heart Health &mdash; view case study</span></a>
+      </article>
+
+      <article class="gitem tall reveal" data-cat="social">
+        <img src="assets/img/prubsn-social-1.jpg" alt="Social media content being produced for the PruBSN Stars channels" loading="lazy" decoding="async">
+        <div class="gitem__overlay">
+          <span class="gitem__cat" data-bm="Media Sosial">Social Media</span>
+          <span class="gitem__title">PruBSN Stars</span>
+          <span class="gitem__blurb" data-bm="Pengurusan media sosial berterusan merentasi Instagram, Facebook dan TikTok.">Ongoing social media management across Instagram, Facebook and TikTok.</span>
+        </div>
+        <a class="case-card__link" href="case-prubsn.html"><span class="sr-only">PruBSN Stars social media &mdash; view case study</span></a>
+      </article>
+
+      <article class="gitem reveal" data-cat="event">
+        <img src="assets/img/mdrt-1.jpg" alt="Ballroom staging and audience at PruBSN MDRT Buddies 2025" loading="lazy" decoding="async">
+        <div class="gitem__overlay">
+          <span class="gitem__cat" data-bm="Acara Korporat">Corporate Event</span>
+          <span class="gitem__title">MDRT Buddies 2025</span>
+          <span class="gitem__blurb" data-bm="Produksi dan liputan acara agensi PruBSN dari dewan besar.">Production and coverage of the PruBSN agency event from the ballroom floor.</span>
+        </div>
+        <a class="case-card__link" href="case-prubsn.html"><span class="sr-only">MDRT Buddies 2025 &mdash; view case study</span></a>
+      </article>
+
+      <article class="gitem reveal" data-cat="event">
+        <img src="assets/img/yebel-1.jpg" alt="Stage and lighting at the PruBSN YEBEL 2025 corporate event" loading="lazy" decoding="async">
+        <div class="gitem__overlay">
+          <span class="gitem__cat" data-bm="Acara Korporat">Corporate Event</span>
+          <span class="gitem__title">YEBEL 2025</span>
+          <span class="gitem__blurb" data-bm="Liputan acara penuh: pentas, penonton, dan potongan sorotan.">Full event coverage: stage, audience and the highlight cutdowns.</span>
+        </div>
+        <a class="case-card__link" href="case-prubsn.html"><span class="sr-only">YEBEL 2025 &mdash; view case study</span></a>
+      </article>
+
+      <article class="gitem wide reveal" data-cat="video">
+        <img src="assets/img/agent-activation-1.jpg" alt="Filming the PruBSN agent activation campaign" loading="lazy" decoding="async">
+        <div class="gitem__overlay">
+          <span class="gitem__cat" data-bm="Video Korporat">Corporate Video</span>
+          <span class="gitem__title" data-bm="Kempen pengaktifan ejen">Agent activation campaign</span>
+          <span class="gitem__blurb" data-bm="Filem korporat yang menerangkan program pengaktifan kepada rangkaian ejen.">A corporate film that explains the activation programme to the agency network.</span>
+        </div>
+        <a class="case-card__link" href="case-prubsn.html"><span class="sr-only">PruBSN agent activation &mdash; view case study</span></a>
+      </article>
+
+      <article class="gitem reveal" data-cat="video">
+        <img src="assets/img/health360-1.jpg" alt="Production of the PruBSN Health360 awareness campaign" loading="lazy" decoding="async">
+        <div class="gitem__overlay">
+          <span class="gitem__cat" data-bm="Video Kesedaran">Awareness Video</span>
+          <span class="gitem__title">Health360</span>
+          <span class="gitem__blurb" data-bm="Filem kesedaran kesihatan untuk khalayak awam PruBSN.">A health awareness film for PruBSN's public-facing audience.</span>
+        </div>
+        <a class="case-card__link" href="case-prubsn.html"><span class="sr-only">PruBSN Health360 &mdash; view case study</span></a>
+      </article>
+
+      <article class="gitem tall reveal" data-cat="podcast">
+        <img src="assets/img/katakita-1.jpg" alt="Kata Kita podcast set with hosts and studio lighting" loading="lazy" decoding="async">
+        <div class="gitem__overlay">
+          <span class="gitem__cat" data-bm="Podcast Mingguan">Weekly Podcast</span>
+          <span class="gitem__title">Kata Kita</span>
+          <span class="gitem__blurb" data-bm="Podcast mingguan bersama tokoh awam dan personaliti industri &mdash; komuniti ~39K di @katakitapodcast.">A weekly podcast with public figures and industry personalities &mdash; a ~39K community at @katakitapodcast.</span>
+        </div>
+        <a class="case-card__link" href="case-podcasts.html"><span class="sr-only">Kata Kita podcast &mdash; view case study</span></a>
+      </article>
+
+      <article class="gitem reveal" data-cat="content">
+        <img src="assets/img/spacedollah-1.jpg" alt="Edit suite where SpaceDollah digital content is produced" loading="lazy" decoding="async">
+        <div class="gitem__overlay">
+          <span class="gitem__cat" data-bm="Kandungan Digital">Digital Content</span>
+          <span class="gitem__title">SpaceDollah</span>
+          <span class="gitem__blurb" data-bm="Produksi kandungan digital untuk Instagram, Facebook, TikTok dan YouTube.">Digital content production for Instagram, Facebook, TikTok and YouTube.</span>
+        </div>
+        <a class="case-card__link" href="case-podcasts.html"><span class="sr-only">SpaceDollah &mdash; view case study</span></a>
+      </article>
+
+      <article class="gitem wide reveal" data-cat="event">
+        <img src="assets/img/flowstate-b-1.jpg" alt="Crowd and lighting during Flow State event coverage" loading="lazy" decoding="async">
+        <div class="gitem__overlay">
+          <span class="gitem__cat" data-bm="Liputan Acara">Event Coverage</span>
+          <span class="gitem__title" data-bm="Flow State &mdash; Liputan">Flow State &mdash; Coverage</span>
+          <span class="gitem__blurb" data-bm="Liputan acara langsung: pentas, khalayak dan potongan sosial pada hari yang sama.">Live event coverage: stage, crowd and same-day social cutdowns.</span>
+        </div>
+        <a class="case-card__link" href="case-podcasts.html"><span class="sr-only">Flow State coverage &mdash; view case study</span></a>
+      </article>
+
+      <article class="gitem reveal" data-cat="podcast">
+        <img src="assets/img/flowstate-pod-1.jpg" alt="Live podcast stage set up at the Flow State event" loading="lazy" decoding="async">
+        <div class="gitem__overlay">
+          <span class="gitem__cat" data-bm="Podcast Langsung">Live Podcast</span>
+          <span class="gitem__title" data-bm="Flow State &mdash; Pentas Podcast">Flow State &mdash; Podcast Stage</span>
+          <span class="gitem__blurb" data-bm="Produksi podcast langsung di dalam acara, dirakam untuk siaran selepas itu.">In-event live podcast production, captured for post-event release.</span>
+        </div>
+        <a class="case-card__link" href="case-podcasts.html"><span class="sr-only">Flow State live podcast &mdash; view case study</span></a>
+      </article>
+
+      <article class="gitem tall reveal" data-cat="commercial">
+        <img src="assets/img/anaaka-1.jpg" alt="Klasse crew filming an outdoor commercial for Anaaka skincare" loading="lazy" decoding="async">
+        <div class="gitem__overlay">
+          <span class="gitem__cat" data-bm="Komersial">Commercial</span>
+          <span class="gitem__title" data-bm="Anaaka &mdash; Komersial">Anaaka &mdash; Commercial</span>
+          <span class="gitem__blurb" data-bm="Penggambaran komersial dan produk untuk jenama penjagaan kulit premium Halal Eropah.">Commercial and product shoot for a European Halal premium skincare brand.</span>
+        </div>
+        <a class="case-card__link" href="case-anaaka.html"><span class="sr-only">Anaaka commercial &mdash; view case study</span></a>
+      </article>
+
+      <article class="gitem reveal" data-cat="brand">
+        <img src="assets/img/aujardin-1.jpg" alt="Exterior of Au Jardin, a one Michelin star restaurant" loading="lazy" decoding="async">
+        <div class="gitem__overlay">
+          <span class="gitem__cat" data-bm="Kandungan Jenama">Brand Content</span>
+          <span class="gitem__title">Au Jardin</span>
+          <span class="gitem__blurb" data-bm="Ciri fine-dining untuk restoran satu-bintang Michelin.">A fine-dining feature for a one-Michelin-star restaurant.</span>
+        </div>
+        <a class="case-card__link" href="case-aujardin.html"><span class="sr-only">Au Jardin &mdash; view case study</span></a>
+      </article>
+
+      <article class="gitem reveal" data-cat="coffee">
+        <img src="assets/img/optiono-1.jpg" alt="Option-O coffee grinder photographed for the Lagom Casa launch" loading="lazy" decoding="async">
+        <div class="gitem__overlay">
+          <span class="gitem__cat" data-bm="Pelancaran Produk">Product Launch</span>
+          <span class="gitem__title" data-bm="Option-O &mdash; Lagom Casa">Option-O &mdash; Lagom Casa</span>
+          <span class="gitem__blurb" data-bm="Kandungan pelancaran untuk pengisar Option-O di Lagom Casa.">Launch content for the Option-O grinder at Lagom Casa.</span>
+        </div>
+        <a class="case-card__link" href="case-coffee.html"><span class="sr-only">Option-O at Lagom Casa &mdash; view case study</span></a>
+      </article>
+
+      <article class="gitem wide reveal" data-cat="coffee">
+        <img src="assets/img/rocket-2.jpg" alt="Rocket Giotto espresso machine detail shot from the launch shoot" loading="lazy" decoding="async">
+        <div class="gitem__overlay">
+          <span class="gitem__cat" data-bm="Pelancaran Produk">Product Launch</span>
+          <span class="gitem__title">Rocket Giotto</span>
+          <span class="gitem__blurb" data-bm="Kandungan pelancaran mesin espresso &mdash; kerja logam, wap dan detail.">Espresso machine launch content &mdash; metalwork, steam and detail.</span>
+        </div>
+        <a class="case-card__link" href="case-coffee.html"><span class="sr-only">Rocket Giotto launch &mdash; view case study</span></a>
+      </article>
+
+      <article class="gitem reveal" data-cat="coffee">
+        <img src="assets/img/bikebrew-1.jpg" alt="Bike and Brew collaboration between Rocket Espresso and Grupetto" loading="lazy" decoding="async">
+        <div class="gitem__overlay">
+          <span class="gitem__cat" data-bm="Kolaborasi">Collaboration</span>
+          <span class="gitem__title">Bike &amp; Brew</span>
+          <span class="gitem__blurb" data-bm="Kandungan kolaborasi Rocket Espresso &times; Grupetto &mdash; basikal bertemu espresso.">Rocket Espresso &times; Grupetto collaboration content &mdash; bikes meet espresso.</span>
+        </div>
+        <a class="case-card__link" href="case-coffee.html"><span class="sr-only">Bike and Brew &mdash; view case study</span></a>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== 4. STAT BAND ===== -->
+<section class="section section--panel section--tight">
+  <div class="wrap">
+    <div class="section-head section-head--center reveal" style="margin-bottom:2.6rem">
+      <span class="eyebrow" data-i18n="eyebrow.numbers">By the numbers</span>
+      <h2 data-bm="Apa yang ada dalam portfolio ini.">What sits inside this portfolio.</h2>
+    </div>
+    <div class="stat-band">
+      <div class="stat-band__item">
+        <div class="stat-band__n"><span data-count="16">16</span></div>
+        <div class="stat-band__l" data-bm="Penyertaan portfolio">Portfolio entries</div>
+      </div>
+      <div class="stat-band__item">
+        <div class="stat-band__n"><span data-count="5">5</span></div>
+        <div class="stat-band__l" data-bm="Kajian kes penuh">Full case studies</div>
+      </div>
+      <div class="stat-band__item">
+        <div class="stat-band__n"><span data-count="8">8</span></div>
+        <div class="stat-band__l" data-bm="Kategori kerja">Categories of work</div>
+      </div>
+      <div class="stat-band__item">
+        <div class="stat-band__n"><span data-count="39">39</span><span class="suffix">K</span></div>
+        <div class="stat-band__l" data-bm="Komuniti Kata Kita">Kata Kita community</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 5. INSIDE THE FRAME — mosaic + lightbox ===== -->
+<section class="section">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow" data-i18n="eyebrow.inside">Inside the studio</span>
+      <h2 data-bm="Bingkai tambahan daripada arkib.">Extra frames from the archive.</h2>
+      <p class="lead muted" data-bm="Gambar yang tidak masuk ke dalam kajian kes. Klik mana-mana bingkai untuk melihatnya lebih besar.">Shots that did not make it into the case studies. Tap any frame to see it larger.</p>
+    </div>
+    <div class="mosaic" style="margin-top:2.8rem">
+      <button type="button" class="mosaic__cell is-tall reveal" data-lightbox="work-archive" data-title="Anaaka — product table" data-title-bm="Anaaka — meja produk" data-blurb="Product photography from the Anaaka commercial shoot." data-blurb-bm="Fotografi produk daripada penggambaran komersial Anaaka.">
+        <img src="assets/img/anaaka-c-1.jpg" alt="Anaaka skincare products styled for a product photography set-up" loading="lazy" decoding="async">
+        <span class="mosaic__cap" data-bm="Anaaka &middot; Produk">Anaaka &middot; Product</span>
+      </button>
+      <button type="button" class="mosaic__cell reveal" data-lightbox="work-archive" data-title="PruBSN — YEBEL 2025" data-blurb="Corporate event production and coverage for the PruBSN agency force." data-blurb-bm="Produksi dan liputan acara korporat untuk barisan ejen PruBSN.">
+        <img src="assets/img/yebel-b-1.jpg" alt="Delegates and staging during the PruBSN YEBEL 2025 event" loading="lazy" decoding="async">
+        <span class="mosaic__cap" data-bm="PruBSN &middot; YEBEL 2025">PruBSN &middot; YEBEL 2025</span>
+      </button>
+      <button type="button" class="mosaic__cell reveal" data-lightbox="work-archive" data-title="Kata Kita — on set" data-title-bm="Kata Kita — di set" data-blurb="A weekly podcast recorded with public figures and industry personalities." data-blurb-bm="Podcast mingguan yang dirakam bersama tokoh awam dan personaliti industri.">
+        <img src="assets/img/katakita-2.jpg" alt="Kata Kita podcast hosts recording an episode" loading="lazy" decoding="async">
+        <span class="mosaic__cap" data-bm="Kata Kita &middot; Set">Kata Kita &middot; On set</span>
+      </button>
+      <button type="button" class="mosaic__cell is-wide reveal" data-lightbox="work-archive" data-title="Au Jardin — the room" data-title-bm="Au Jardin — ruang" data-blurb="Atmosphere and interior for a one-Michelin-star fine dining feature." data-blurb-bm="Suasana dan pedalaman untuk ciri fine-dining satu-bintang Michelin.">
+        <img src="assets/img/aujardin-2.jpg" alt="Interior atmosphere of the Au Jardin dining room" loading="lazy" decoding="async">
+        <span class="mosaic__cap" data-bm="Au Jardin &middot; Ruang">Au Jardin &middot; The room</span>
+      </button>
+      <button type="button" class="mosaic__cell reveal" data-lightbox="work-archive" data-title="Option-O — Lagom Casa" data-blurb="Product content produced for the Option-O grinder launch." data-blurb-bm="Kandungan produk untuk pelancaran pengisar Option-O.">
+        <img src="assets/img/optiono-b-1.jpg" alt="Option-O grinder styled on the bar at Lagom Casa" loading="lazy" decoding="async">
+        <span class="mosaic__cap" data-bm="Option-O &middot; Pelancaran">Option-O &middot; Launch</span>
+      </button>
+      <button type="button" class="mosaic__cell reveal" data-lightbox="work-archive" data-title="PruBSN — Health360" data-blurb="Awareness campaign film for PruBSN Health360." data-blurb-bm="Filem kempen kesedaran untuk PruBSN Health360.">
+        <img src="assets/img/health360-2.jpg" alt="Filming a scene for the PruBSN Health360 awareness campaign" loading="lazy" decoding="async">
+        <span class="mosaic__cap" data-bm="PruBSN &middot; Health360">PruBSN &middot; Health360</span>
+      </button>
+      <button type="button" class="mosaic__cell reveal" data-lightbox="work-archive" data-title="Bike &amp; Brew — Rocket x Grupetto" data-blurb="Collaboration content for Rocket Espresso and Grupetto." data-blurb-bm="Kandungan kolaborasi untuk Rocket Espresso dan Grupetto.">
+        <img src="assets/img/bikebrew-b-1.jpg" alt="Cyclists and espresso at the Bike and Brew collaboration event" loading="lazy" decoding="async">
+        <span class="mosaic__cap" data-bm="Bike &amp; Brew &middot; Kolaborasi">Bike &amp; Brew &middot; Collaboration</span>
+      </button>
+      <button type="button" class="mosaic__cell reveal" data-lightbox="work-archive" data-title="SpaceDollah — post production" data-title-bm="SpaceDollah — pasca produksi" data-blurb="Editing and grading digital content for four platforms." data-blurb-bm="Penyuntingan dan gredasi kandungan digital untuk empat platform.">
+        <img src="assets/img/spacedollah-b-1.jpg" alt="SpaceDollah content being edited in the post-production suite" loading="lazy" decoding="async">
+        <span class="mosaic__cap" data-bm="SpaceDollah &middot; Pasca">SpaceDollah &middot; Post</span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 6. CTA BAND ===== -->
+<section class="section cta-band">
+  <div class="cta-band__bg" aria-hidden="true"><img src="assets/img/mdrt-2.jpg" alt="" loading="lazy" decoding="async"></div>
+  <div class="wrap">
+    <span class="eyebrow reveal" style="justify-content:center" data-i18n="eyebrow.projectNext">Your next project</span>
+    <h2 class="reveal" style="margin-top:1rem" data-bm="Projek anda boleh menjadi kes seterusnya <span class='hl'>di halaman ini.</span>">Your project could be the next case <span class="hl">on this page.</span></h2>
+    <p class="reveal" data-bm="Beritahu kami tentang jenama, tarikh dan hasil yang anda perlukan. Kami akan kembali dengan skop, pasukan dan jadual penggambaran.">Tell us the brand, the date and the deliverables you need. We come back with a scope, a crew and a shoot schedule.</p>
+    <div class="hero__actions reveal" style="margin-top:2rem">
+      <a class="btn btn--primary" href="contact.html" data-i18n="ui.startProject">Start a project <span class="arrow">&rarr;</span></a>
+      <a class="btn btn--light" href="https://wa.me/60122202015" target="_blank" rel="noopener" data-bm="WhatsApp kami">WhatsApp us</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER (copy verbatim across pages) ===== -->
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-top footer-top--4">
+      <div class="footer-brand">
+        <img src="assets/logo-white.png" alt="Klasse Productions" width="150" height="32" loading="lazy" decoding="async">
+        <p data-i18n="foot.tagline">A creative &amp; production house specialising in content, digital, and brand storytelling. Transforming businesses through innovative strategies that drive real, measurable results.</p>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="foot.explore">Explore</h4>
+        <ul>
+          <li><a href="index.html" data-i18n="foot.home">Home</a></li>
+          <li><a href="about.html" data-i18n="foot.about">About Us</a></li>
+          <li><a href="services.html" data-i18n="foot.services">Services</a></li>
+          <li><a href="work.html" data-i18n="foot.work">Work</a></li>
+          <li><a href="process.html" data-i18n="foot.process">Process</a></li>
+          <li><a href="clients.html" data-i18n="foot.clients">Clients</a></li>
+          <li><a href="contact.html" data-i18n="foot.contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="foot.cases">Case Studies</h4>
+        <ul>
+          <li><a href="case-prubsn.html">PruBSN</a></li>
+          <li><a href="case-podcasts.html" data-bm="Podcast">Podcasts</a></li>
+          <li><a href="case-anaaka.html">Anaaka</a></li>
+          <li><a href="case-aujardin.html">Au Jardin</a></li>
+          <li><a href="case-coffee.html" data-bm="Kopi Khusus">Specialty Coffee</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="foot.office">Office</h4>
+        <p>Klasse Production Sdn Bhd<br>A2-13-1, Arcoris SOHO, Jalan Kiara<br>50480 Kuala Lumpur<br>Wilayah Persekutuan, Malaysia</p>
+        <p style="margin-top:1rem"><a href="mailto:omarbarakbah@klasseproduction.com">omarbarakbah@klasseproduction.com</a><br><a href="tel:+60122202015">+60 12-220 2015</a><br><a href="https://wa.me/60122202015" target="_blank" rel="noopener">WhatsApp</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span id="year">2025</span> Klasse Production Sdn Bhd 202401052810 (1598653-T). <span data-i18n="foot.rights">All rights reserved.</span></span>
+      <div class="social">
+        <a href="https://www.facebook.com/klasseproductions" aria-label="Klasse Productions on Facebook" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 21v-8h2.69l.4-3.12h-3.09V7.9c0-.9.25-1.52 1.55-1.52h1.65V3.58A22 22 0 0 0 14.3 3.45c-2.44 0-4.11 1.49-4.11 4.22v2.21H7.5V13h2.69v8h3.31Z"/></svg></a>
+        <a href="https://x.com/classprod" aria-label="Klasse Productions on X (Twitter)" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.53 3H20.5l-6.48 7.4L21.6 21h-5.97l-4.68-6.12L5.6 21H2.63l6.93-7.92L2.4 3h6.12l4.23 5.6L17.53 3Zm-1.05 16.2h1.65L7.6 4.7H5.83l10.65 14.5Z"/></svg></a>
+        <!-- TODO: confirm IG handle -->
+        <a href="https://www.instagram.com/klasseproductions" aria-label="Klasse Productions on Instagram" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.2c3.2 0 3.6 0 4.9.07 1.2.05 1.8.25 2.2.42.6.2 1 .5 1.4.9.4.4.7.8.9 1.4.17.4.37 1 .42 2.2.06 1.3.07 1.7.07 4.9s0 3.6-.07 4.9c-.05 1.2-.25 1.8-.42 2.2a3.8 3.8 0 0 1-.9 1.4c-.4.4-.8.7-1.4.9-.4.17-1 .37-2.2.42-1.3.06-1.7.07-4.9.07s-3.6 0-4.9-.07c-1.2-.05-1.8-.25-2.2-.42a3.8 3.8 0 0 1-1.4-.9 3.8 3.8 0 0 1-.9-1.4c-.17-.4-.37-1-.42-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.07-4.9c.05-1.2.25-1.8.42-2.2.2-.6.5-1 .9-1.4.4-.4.8-.7 1.4-.9.4-.17 1-.37 2.2-.42C8.4 2.2 8.8 2.2 12 2.2Zm0 1.8c-3.1 0-3.5 0-4.7.07-.9.04-1.4.2-1.7.32-.43.17-.74.37-1.06.69-.32.32-.52.63-.69 1.06-.12.3-.28.8-.32 1.7C3.46 9.1 3.45 9.5 3.45 12s0 2.9.07 4.1c.04.9.2 1.4.32 1.7.17.43.37.74.69 1.06.32.32.63.52 1.06.69.3.12.8.28 1.7.32 1.2.06 1.6.07 4.7.07s3.5 0 4.7-.07c.9-.04 1.4-.2 1.7-.32.43-.17.74-.37 1.06-.69.32-.32.52-.63.69-1.06.12-.3.28-.8.32-1.7.06-1.2.07-1.6.07-4.1s0-2.9-.07-4.1c-.04-.9-.2-1.4-.32-1.7a2.9 2.9 0 0 0-.69-1.06 2.9 2.9 0 0 0-1.06-.69c-.3-.12-.8-.28-1.7-.32C15.5 4 15.1 4 12 4Zm0 3.05A4.95 4.95 0 1 1 7.05 12 4.95 4.95 0 0 1 12 7.05Zm0 8.16A3.21 3.21 0 1 0 8.79 12 3.21 3.21 0 0 0 12 15.21Zm6.3-8.36a1.16 1.16 0 1 1-1.15-1.15 1.16 1.16 0 0 1 1.15 1.15Z"/></svg></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/main.js"></script>
+</body>
+</html>

@@ -1,19 +1,62 @@
 /* ===========================================================================
-   Klasse Productions — CINEMATIC: i18n (EN/BM) + cinematic animations
+   Klasse Productions — CINEMATIC: i18n (EN/BM) + cinematic behaviour
+   ---------------------------------------------------------------------------
+   Modules (in order):
+     1.  DICT              shared Bahasa Melayu strings (data-i18n keys)
+     2.  applyLang()       EN <-> BM switching (data-i18n / data-bm / data-bm-ph)
+     3.  back-to-top       injected on every page
+     4.  WhatsApp FAB      injected on every page
+     5.  mobile nav        hamburger ≤900px (link / outside / Esc / resize)
+     6.  header scrolled   + scroll-progress bar
+     7.  parallax          any [data-parallax] element, rAF-throttled
+     8.  reveal + counters .reveal / .stat / .stat-band__item / [data-count]
+     9.  FAQ accordion     .faq-item
+     10. work filters      .filter + .gitem
+     11. lightbox          GENERIC: .gitem cards AND any [data-lightbox] thumb.
+                           The .lightbox markup is injected if the page has
+                           none, so case-study galleries need zero boilerplate.
+     12. contact form      mailto fallback
    =========================================================================== */
 (function () {
   "use strict";
 
-  /* ---- Shared Bahasa Melayu dictionary (chrome, buttons, eyebrows + new sections) ---- */
+  /* -------------------------------------------------------------------------
+     1. Shared Bahasa Melayu dictionary (chrome, nav, buttons, eyebrows)
+     ---------------------------------------------------------------------- */
   var DICT = {
-    "nav.home":"Utama","nav.about":"Tentang","nav.services":"Perkhidmatan","nav.work":"Kerja","nav.contact":"Hubungi","nav.cta":"Mari berbual",
+    /* nav */
+    "nav.home":"Utama","nav.about":"Tentang","nav.services":"Perkhidmatan","nav.work":"Kerja",
+    "nav.process":"Proses","nav.clients":"Klien","nav.contact":"Hubungi","nav.cta":"Mari berbual",
+    /* footer */
     "foot.tagline":"Sebuah rumah kreatif &amp; produksi yang pakar dalam kandungan, digital, dan penceritaan jenama. Mengubah perniagaan melalui strategi inovatif yang mendorong hasil sebenar dan boleh diukur.",
-    "foot.explore":"Terokai","foot.office":"Pejabat","foot.home":"Utama","foot.about":"Tentang Kami","foot.services":"Perkhidmatan","foot.work":"Kerja","foot.contact":"Hubungi","foot.rights":"Hak cipta terpelihara.",
+    "foot.explore":"Terokai","foot.office":"Pejabat","foot.work":"Kerja Terpilih","foot.home":"Utama",
+    "foot.about":"Tentang Kami","foot.services":"Perkhidmatan","foot.process":"Proses","foot.clients":"Klien",
+    "foot.contact":"Hubungi","foot.rights":"Hak cipta terpelihara.","foot.cases":"Kajian Kes",
+    /* client / logo sections */
     "clients.note":"Kami telah bekerjasama dengan jenama merentasi sektor korporat, media, gaya hidup, dan digital — dan banyak lagi.",
-    "eyebrow.house":"Rumah Kreatif &amp; Produksi · Kuala Lumpur","eyebrow.about":"Tentang Klasse","eyebrow.whatwedo":"Apa yang kami buat","eyebrow.selected":"Kerja terpilih","eyebrow.clients":"Klien &amp; Rakan Kongsi","eyebrow.makeHappen":"Mari kita laksanakan","eyebrow.core":"Keupayaan Teras","eyebrow.getintouch":"Hubungi kami","eyebrow.whoweare":"Siapa kami","eyebrow.approach":"Pendekatan kami","eyebrow.portfolio":"Portfolio Projek","eyebrow.projectMind":"Ada projek dalam fikiran?","eyebrow.projectNext":"Projek anda seterusnya","eyebrow.testimonials":"Apa kata klien","eyebrow.faq":"Soalan lazim","eyebrow.packages":"Pakej & Pelaburan","eyebrow.numbers":"Dalam angka","eyebrow.showreel":"Reel kami","eyebrow.capabilities":"Keupayaan penuh","eyebrow.studio":"Studio Kuala Lumpur",
+    /* eyebrows */
+    "eyebrow.house":"Rumah Kreatif &amp; Produksi · Kuala Lumpur","eyebrow.about":"Tentang Klasse",
+    "eyebrow.whatwedo":"Apa yang kami buat","eyebrow.selected":"Kerja terpilih",
+    "eyebrow.clients":"Klien &amp; Rakan Kongsi","eyebrow.makeHappen":"Mari kita laksanakan",
+    "eyebrow.core":"Keupayaan Teras","eyebrow.getintouch":"Hubungi kami","eyebrow.whoweare":"Siapa kami",
+    "eyebrow.approach":"Pendekatan kami","eyebrow.portfolio":"Portfolio Projek",
+    "eyebrow.projectMind":"Ada projek dalam fikiran?","eyebrow.projectNext":"Projek anda seterusnya",
+    "eyebrow.testimonials":"Apa kata klien","eyebrow.faq":"Soalan lazim","eyebrow.packages":"Pakej & Pelaburan",
+    "eyebrow.numbers":"Dalam angka","eyebrow.showreel":"Reel kami","eyebrow.capabilities":"Keupayaan penuh",
+    "eyebrow.studio":"Studio Kuala Lumpur","eyebrow.process":"Cara kami bekerja",
+    "eyebrow.scope":"Skop berdaftar","eyebrow.story":"Kisah kami","eyebrow.inside":"Di dalam studio",
+    /* reusable UI strings */
+    "ui.viewCase":"Lihat kajian kes","ui.nextCase":"Kes seterusnya","ui.allWork":"Semua kerja",
+    "ui.viewWork":"Lihat kerja kami","ui.startProject":"Mulakan projek","ui.emailUs":"E-mel kami",
+    "ui.backToTop":"Kembali ke atas","ui.whatsapp":"Sembang di WhatsApp","ui.scroll":"Tatal",
+    "ui.moreAbout":"Lagi tentang kami","ui.allCapabilities":"Lihat kesemua 9 keupayaan",
+    "ui.fullPortfolio":"Terokai portfolio penuh","ui.talkToUs":"Berbual dengan kami",
     "play.watch":"Tonton reel"
   };
 
+  /* -------------------------------------------------------------------------
+     2. Language switching
+     ---------------------------------------------------------------------- */
   function applyLang(lang) {
     document.documentElement.setAttribute('lang', lang === 'bm' ? 'ms' : 'en');
     document.querySelectorAll('[data-i18n]').forEach(function (el) {
@@ -28,16 +71,20 @@
       if (el._enph === undefined) el._enph = el.getAttribute('placeholder') || '';
       el.setAttribute('placeholder', (lang === 'bm') ? el.getAttribute('data-bm-ph') : el._enph);
     });
+    document.querySelectorAll('[data-bm-alt]').forEach(function (el) {
+      if (el._enalt === undefined) el._enalt = el.getAttribute('alt') || '';
+      el.setAttribute('alt', (lang === 'bm') ? el.getAttribute('data-bm-alt') : el._enalt);
+    });
     document.querySelectorAll('.lang button').forEach(function (b) {
       var isOn = b.getAttribute('data-lang') === lang;
       b.classList.toggle('on', isOn);
       b.setAttribute('aria-pressed', isOn ? 'true' : 'false');
     });
     var _bt = document.querySelector('.back-to-top');
-    if (_bt) _bt.setAttribute('aria-label', lang === 'bm' ? 'Kembali ke atas' : 'Back to top');
+    if (_bt) _bt.setAttribute('aria-label', lang === 'bm' ? DICT['ui.backToTop'] : 'Back to top');
     var _wa = document.querySelector('.wa-fab');
     if (_wa) {
-      _wa.setAttribute('aria-label', lang === 'bm' ? 'Sembang di WhatsApp' : 'Chat on WhatsApp');
+      _wa.setAttribute('aria-label', lang === 'bm' ? DICT['ui.whatsapp'] : 'Chat on WhatsApp');
       var _waMsg = lang === 'bm'
         ? 'Hai Klasse Productions, saya ingin berbincang tentang satu projek.'
         : "Hi Klasse Productions, I'd like to talk about a project.";
@@ -46,7 +93,11 @@
     try { localStorage.setItem('klasse-lang', lang); } catch (e) {}
   }
 
-  /* ---- Back-to-top button (injected on every page) ---- */
+  function isBM() { return document.documentElement.getAttribute('lang') === 'ms'; }
+
+  /* -------------------------------------------------------------------------
+     3. Back-to-top button (injected on every page)
+     ---------------------------------------------------------------------- */
   var prefersReduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   var backTop = document.createElement('button');
   backTop.type = 'button';
@@ -57,13 +108,13 @@
   backTop.addEventListener('click', function () {
     window.scrollTo({ top: 0, behavior: prefersReduced ? 'auto' : 'smooth' });
   });
-  var onBackTop = function () {
-    backTop.classList.toggle('show', window.scrollY > 600);
-  };
+  var onBackTop = function () { backTop.classList.toggle('show', window.scrollY > 600); };
   window.addEventListener('scroll', onBackTop, { passive: true });
   onBackTop();
 
-  /* ---- WhatsApp floating button (injected on every page) ---- */
+  /* -------------------------------------------------------------------------
+     4. WhatsApp floating button (injected on every page)
+     ---------------------------------------------------------------------- */
   var wa = document.createElement('a');
   wa.className = 'wa-fab';
   wa.href = 'https://wa.me/60122202015';
@@ -80,7 +131,9 @@
   });
   applyLang(saved);
 
-  /* ---- Mobile nav ---- */
+  /* -------------------------------------------------------------------------
+     5. Mobile nav
+     ---------------------------------------------------------------------- */
   var toggle = document.querySelector('.nav__toggle');
   var links = document.querySelector('.nav__links');
   if (toggle && links) {
@@ -107,7 +160,9 @@
     window.addEventListener('resize', function () { if (window.innerWidth > 900) closeMenu(); });
   }
 
-  /* ---- Header scrolled state ---- */
+  /* -------------------------------------------------------------------------
+     6. Header scrolled state + scroll-progress bar
+     ---------------------------------------------------------------------- */
   var header = document.querySelector('.site-header');
   if (header) {
     var onHeader = function () { header.classList.toggle('scrolled', window.scrollY > 30); };
@@ -115,7 +170,6 @@
     onHeader();
   }
 
-  /* ---- Scroll progress bar ---- */
   var bar = document.querySelector('.scrollbar');
   if (bar) {
     var onScroll = function () {
@@ -127,19 +181,21 @@
     onScroll();
   }
 
-  /* ---- Reduced motion check ---- */
-  var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var reduceMotion = prefersReduced;
 
-  /* ---- Parallax on hero/section background images ---- */
+  /* -------------------------------------------------------------------------
+     7. Parallax — any [data-parallax] element (value = speed, default 0.16)
+        rAF-throttled, skipped entirely under prefers-reduced-motion.
+     ---------------------------------------------------------------------- */
   var parallaxEls = document.querySelectorAll('[data-parallax]');
   if (parallaxEls.length && !reduceMotion) {
     var ticking = false;
     var runParallax = function () {
       var vh = window.innerHeight;
       parallaxEls.forEach(function (el) {
-        var speed = parseFloat(el.getAttribute('data-parallax')) || 0.18;
+        var speed = parseFloat(el.getAttribute('data-parallax')) || 0.16;
         var rect = el.getBoundingClientRect();
-        if (rect.bottom < -100 || rect.top > vh + 100) return;
+        if (rect.bottom < -120 || rect.top > vh + 120) return;   /* off-screen: skip */
         var offset = (rect.top + rect.height / 2 - vh / 2) * speed;
         el.style.transform = 'translate3d(0,' + offset.toFixed(1) + 'px,0)';
       });
@@ -152,9 +208,15 @@
     runParallax();
   }
 
-  /* ---- Count-up ---- */
+  /* -------------------------------------------------------------------------
+     8. Count-up + reveal
+     ---------------------------------------------------------------------- */
   function countUp(el) {
+    if (el._counted) return;
+    el._counted = true;
     var target = parseFloat(el.getAttribute('data-count'));
+    if (isNaN(target)) return;
+    if (reduceMotion) { el.textContent = target; return; }
     var dur = 1300, start = null;
     function step(t) {
       if (!start) start = t;
@@ -165,16 +227,16 @@
     requestAnimationFrame(step);
   }
 
-  /* ---- Reveal + count triggers ---- */
-  var revealEls = document.querySelectorAll('.reveal, .stat');
+  var revealEls = document.querySelectorAll('.reveal, .stat, .stat-band__item');
   if ('IntersectionObserver' in window) {
     var io = new IntersectionObserver(function (entries) {
       entries.forEach(function (e) {
         if (e.isIntersecting) {
           e.target.classList.add('in');
           if (e.target.hasAttribute('data-count')) countUp(e.target);
-          var c = e.target.querySelector ? e.target.querySelector('[data-count]') : null;
-          if (c) countUp(c);
+          if (e.target.querySelectorAll) {
+            e.target.querySelectorAll('[data-count]').forEach(countUp);
+          }
           io.unobserve(e.target);
         }
       });
@@ -188,7 +250,9 @@
     document.querySelectorAll('[data-count]').forEach(function (el) { el.textContent = el.getAttribute('data-count'); });
   }
 
-  /* ---- FAQ accordion ---- */
+  /* -------------------------------------------------------------------------
+     9. FAQ accordion
+     ---------------------------------------------------------------------- */
   document.querySelectorAll('.faq-item').forEach(function (item) {
     var q = item.querySelector('.faq-q');
     var a = item.querySelector('.faq-a');
@@ -197,79 +261,138 @@
     q.addEventListener('click', function () {
       var isOpen = item.classList.contains('open');
       document.querySelectorAll('.faq-item.open').forEach(function (other) {
-        if (other !== item) { other.classList.remove('open'); other.querySelector('.faq-a').style.maxHeight = null;
-          var oq = other.querySelector('.faq-q'); if (oq) oq.setAttribute('aria-expanded', 'false'); }
+        if (other !== item) {
+          other.classList.remove('open');
+          var oa = other.querySelector('.faq-a'); if (oa) oa.style.maxHeight = null;
+          var oq = other.querySelector('.faq-q'); if (oq) oq.setAttribute('aria-expanded', 'false');
+        }
       });
       if (isOpen) { item.classList.remove('open'); a.style.maxHeight = null; q.setAttribute('aria-expanded', 'false'); }
       else { item.classList.add('open'); a.style.maxHeight = a.scrollHeight + 'px'; q.setAttribute('aria-expanded', 'true'); }
     });
   });
 
-  /* ---- Work filters ---- */
-  var filterBtns = document.querySelectorAll('.filter');
+  /* -------------------------------------------------------------------------
+     10 + 11. LIGHTBOX (generic) and work filters
+     ---------------------------------------------------------------------- */
   var galleryItems = document.querySelectorAll('.gitem');
-  if (filterBtns.length) {
-    filterBtns.forEach(function (btn) {
-      btn.addEventListener('click', function () {
-        filterBtns.forEach(function (b) { b.classList.remove('on'); });
-        btn.classList.add('on');
-        var f = btn.getAttribute('data-filter');
-        galleryItems.forEach(function (it) {
-          var show = (f === 'all' || it.getAttribute('data-cat') === f);
-          it.style.display = show ? '' : 'none';
-        });
-        rebuildLightboxList();
-      });
-    });
+  var lbRebuild = function () {};   /* replaced below once the lightbox exists */
+
+  var PLAY_SVG = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>';
+
+  function buildLightbox() {
+    var el = document.createElement('div');
+    el.className = 'lightbox';
+    el.setAttribute('aria-hidden', 'true');
+    el.setAttribute('role', 'dialog');
+    el.setAttribute('aria-modal', 'true');
+    el.setAttribute('aria-label', 'Image viewer');
+    el.innerHTML =
+      '<div class="lightbox__inner">' +
+        '<button type="button" class="lb-close" aria-label="Close">&times;</button>' +
+        '<div class="lightbox__media">' +
+          '<img src="" alt="">' +
+          '<div class="lightbox__play" aria-hidden="true">' + PLAY_SVG + '</div>' +
+        '</div>' +
+        '<button type="button" class="lb-btn lb-prev" aria-label="Previous image">&#8249;</button>' +
+        '<button type="button" class="lb-btn lb-next" aria-label="Next image">&#8250;</button>' +
+        '<div class="lightbox__caption"><strong></strong><span></span></div>' +
+      '</div>';
+    document.body.appendChild(el);
+    return el;
   }
 
-  /* ---- Lightbox (gallery + video posters) ---- */
+  var hasLbTargets = document.querySelector('.gitem, [data-lightbox]');
   var lb = document.querySelector('.lightbox');
-  if (lb) {
+  if (hasLbTargets && !lb) lb = buildLightbox();
+
+  if (lb && hasLbTargets) {
     var lbImg = lb.querySelector('.lightbox__media img');
     var lbCapTitle = lb.querySelector('.lightbox__caption strong');
     var lbCapText = lb.querySelector('.lightbox__caption span');
-    var lbInner = lb.querySelector('.lightbox__media');
     var items = [];
     var current = 0;
+    var lastFocus = null;
 
-    function rebuildLightboxList() {
-      items = Array.prototype.filter.call(galleryItems, function (it) { return it.style.display !== 'none'; });
+    /* Group resolution: .gitem cards share the implicit "__work" group;
+       [data-lightbox="x"] thumbs are grouped by their attribute value.      */
+    function groupOf(el) {
+      return el.hasAttribute('data-lightbox') ? (el.getAttribute('data-lightbox') || 'default') : '__work';
     }
-    window.rebuildLightboxList = rebuildLightboxList;
-    rebuildLightboxList();
+    function collect(group) {
+      if (group === '__work') {
+        return Array.prototype.filter.call(galleryItems, function (it) { return it.style.display !== 'none'; });
+      }
+      return Array.prototype.filter.call(document.querySelectorAll('[data-lightbox]'), function (it) {
+        return (it.getAttribute('data-lightbox') || 'default') === group;
+      });
+    }
+    lbRebuild = function () { if (items.length) items = collect(groupOf(items[0])); };
+
+    function imgOf(el) { return el.tagName === 'IMG' ? el : el.querySelector('img'); }
 
     function show(idx) {
       if (!items.length) return;
       current = (idx + items.length) % items.length;
       var it = items[current];
-      var img = it.querySelector('img');
-      lbImg.src = img.getAttribute('data-full') || img.src;
-      lbImg.alt = img.alt || '';
-      if (lbCapTitle) lbCapTitle.textContent = it.getAttribute('data-title') || '';
-      var isBM = document.documentElement.getAttribute('lang') === 'ms';
-      var cap = isBM ? (it.getAttribute('data-blurb-bm') || it.getAttribute('data-blurb') || '') : (it.getAttribute('data-blurb') || '');
-      if (it.classList.contains('video')) {
-        cap += (isBM ? '  ·  Reel penuh tersedia atas permintaan.' : '  ·  Full reel available on request.');
+      var img = imgOf(it);
+      if (img) {
+        lbImg.src = img.getAttribute('data-full') || img.currentSrc || img.src;
+        lbImg.alt = img.getAttribute('alt') || '';
       }
+      var bm = isBM();
+      var title = (bm && it.getAttribute('data-title-bm')) || it.getAttribute('data-title') ||
+                  (img ? img.getAttribute('alt') : '') || '';
+      if (lbCapTitle) lbCapTitle.textContent = title;
+      var cap = bm
+        ? (it.getAttribute('data-blurb-bm') || it.getAttribute('data-blurb') || '')
+        : (it.getAttribute('data-blurb') || '');
+      var isVideo = it.classList.contains('video') || it.hasAttribute('data-video');
+      if (isVideo) cap += (bm ? '  ·  Reel penuh tersedia atas permintaan.' : '  ·  Full reel available on request.');
       if (lbCapText) lbCapText.textContent = cap;
-      lb.classList.toggle('is-video', it.classList.contains('video'));
+      lb.classList.toggle('is-video', isVideo);
+      var multi = items.length > 1;
+      lb.querySelector('.lb-prev').style.display = multi ? '' : 'none';
+      lb.querySelector('.lb-next').style.display = multi ? '' : 'none';
     }
-    function open(idx) { show(idx); lb.classList.add('open'); document.body.style.overflow = 'hidden'; lb.setAttribute('aria-hidden', 'false'); }
-    function close() { lb.classList.remove('open'); document.body.style.overflow = ''; lb.setAttribute('aria-hidden', 'true'); }
+    function open(list, idx) {
+      items = list;
+      lastFocus = document.activeElement;
+      show(idx);
+      lb.classList.add('open');
+      lb.setAttribute('aria-hidden', 'false');
+      document.body.style.overflow = 'hidden';
+      var closeBtn = lb.querySelector('.lb-close');
+      if (closeBtn) closeBtn.focus();
+    }
+    function close() {
+      lb.classList.remove('open');
+      lb.setAttribute('aria-hidden', 'true');
+      document.body.style.overflow = '';
+      if (lastFocus && lastFocus.focus) lastFocus.focus();
+    }
 
-    galleryItems.forEach(function (it) {
-      it.addEventListener('click', function () {
-        rebuildLightboxList();
-        var idx = items.indexOf(it);
-        if (idx >= 0) open(idx);
+    function bind(el) {
+      if (el._lbBound) return;
+      el._lbBound = true;
+      el.addEventListener('click', function (e) {
+        if (e.target.closest && e.target.closest('a')) return;   /* let real links win */
+        var list = collect(groupOf(el));
+        var idx = list.indexOf(el);
+        if (idx >= 0) open(list, idx);
       });
-      it.setAttribute('tabindex', '0');
-      it.setAttribute('role', 'button');
-      it.addEventListener('keydown', function (e) {
-        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); it.click(); }
-      });
-    });
+      var isNativeBtn = el.tagName === 'BUTTON' || el.tagName === 'A';
+      if (!isNativeBtn) {
+        el.setAttribute('tabindex', '0');
+        if (!el.getAttribute('role')) el.setAttribute('role', 'button');
+        el.addEventListener('keydown', function (e) {
+          if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); el.click(); }
+        });
+      }
+    }
+
+    galleryItems.forEach(bind);
+    document.querySelectorAll('[data-lightbox]').forEach(bind);
 
     lb.querySelector('.lb-next').addEventListener('click', function (e) { e.stopPropagation(); show(current + 1); });
     lb.querySelector('.lb-prev').addEventListener('click', function (e) { e.stopPropagation(); show(current - 1); });
@@ -283,24 +406,47 @@
     });
   }
 
-  /* ---- Contact form (mailto) ---- */
+  /* ---- Work filters (work.html) — refresh the lightbox list after filtering */
+  var filterBtns = document.querySelectorAll('.filter');
+  if (filterBtns.length) {
+    filterBtns.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        filterBtns.forEach(function (b) { b.classList.remove('on'); });
+        btn.classList.add('on');
+        var f = btn.getAttribute('data-filter');
+        galleryItems.forEach(function (it) {
+          var show = (f === 'all' || it.getAttribute('data-cat') === f);
+          it.style.display = show ? '' : 'none';
+        });
+        lbRebuild();
+      });
+    });
+  }
+  window.rebuildLightboxList = function () { lbRebuild(); };
+
+  /* -------------------------------------------------------------------------
+     12. Contact form (mailto fallback)
+     ---------------------------------------------------------------------- */
   var form = document.querySelector('#contact-form');
   if (form) {
     form.addEventListener('submit', function (e) {
       e.preventDefault();
       var d = new FormData(form);
-      var isBM = document.documentElement.getAttribute('lang') === 'ms';
+      var bm = isBM();
       var body =
-        (isBM ? 'Nama: ' : 'Name: ') + (d.get('name') || '') + '\n' +
+        (bm ? 'Nama: ' : 'Name: ') + (d.get('name') || '') + '\n' +
         'Email: ' + (d.get('email') || '') + '\n' +
-        (isBM ? 'Syarikat: ' : 'Company: ') + (d.get('company') || '') + '\n' +
-        (isBM ? 'Perkhidmatan: ' : 'Service of interest: ') + (d.get('service') || '') + '\n\n' +
+        (bm ? 'Syarikat: ' : 'Company: ') + (d.get('company') || '') + '\n' +
+        (bm ? 'Perkhidmatan: ' : 'Service of interest: ') + (d.get('service') || '') + '\n\n' +
         (d.get('message') || '');
       window.location.href = 'mailto:omarbarakbah@klasseproduction.com?subject=' +
-        encodeURIComponent((isBM ? 'Pertanyaan baharu daripada ' : 'New enquiry from ') + (d.get('name') || 'website')) +
+        encodeURIComponent((bm ? 'Pertanyaan baharu daripada ' : 'New enquiry from ') + (d.get('name') || 'website')) +
         '&body=' + encodeURIComponent(body);
       var note = document.querySelector('#form-status');
-      if (note) { note.textContent = isBM ? 'Membuka aplikasi e-mel anda…' : 'Opening your email app to send the message…'; note.style.color = '#fb7a3c'; }
+      if (note) {
+        note.textContent = bm ? 'Membuka aplikasi e-mel anda…' : 'Opening your email app to send the message…';
+        note.style.color = '#fb7a3c';
+      }
     });
   }
 
